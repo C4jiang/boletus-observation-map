@@ -1,0 +1,42 @@
+# === Bell Labs Homebase Security Guard ===
+# Protect secrets and keys from accidental commit
+.env
+*.env
+*.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.secret
+token.json
+credentials.json
+*.pfx
+*.p12
+
+# System & IDE noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Common build & runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+dist/
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+Library/
+Temp/
+Logs/
+UserSettings/

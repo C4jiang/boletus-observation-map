@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive distribution map for high-precision Boletus edulis observations." />
+    <title>Porcini in Finland</title>
+    <link rel="stylesheet" href="vendor/leaflet.css" />
+    <link rel="stylesheet" href="vendor/MarkerCluster.css" />
+    <link rel="stylesheet" href="vendor/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">Occurrence explorer</p>
+          <h1>Porcini in Finland</h1>
+          <p class="subtitle"><i>Boletus edulis</i> observations with high-precision coordinates, 2009-2026.</p>
+        </div>
+        <a class="data-link" href="data/boletus_edulis_fi_2009_high_precision.csv" download>Download CSV</a>
+      </header>
+
+      <section class="map-shell" aria-label="Interactive observation map">
+        <aside class="panel" aria-label="Map filters and dataset notes">
+          <div class="stat-block">
+            <span id="visible-count" class="stat-number">Loading</span>
+            <span class="stat-label">observations shown</span>
+          </div>
+
+          <fieldset>
+            <legend>Observation year</legend>
+            <div class="range-labels"><span id="year-min-label">2009</span><span id="year-max-label">2026</span></div>
+            <label class="sr-only" for="year-min">Earliest year</label>
+            <input id="year-min" type="range" min="2009" max="2026" value="2009" step="1" />
+            <label class="sr-only" for="year-max">Latest year</label>
+            <input id="year-max" type="range" min="2009" max="2026" value="2026" step="1" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Country</legend>
+            <label class="checkbox"><input type="checkbox" name="country" value="FI" checked /> Finland <span>526</span></label>
+            <label class="checkbox"><input type="checkbox" name="country" value="EE" checked /> Estonia <span>25</span></label>
+            <label class="checkbox"><input type="checkbox" name="country" value="DK" checked /> Denmark <span>2</span></label>
+            <label class="checkbox"><input type="checkbox" name="country" value="NO" checked /> Norway <span>1</span></label>
+          </fieldset>
+
+          <button id="reset-filters" class="secondary" type="button">Reset filters</button>
+          <button id="fit-map" class="secondary" type="button">Fit visible observations</button>
+
+          <div class="method-note">
+            <h2>Dataset rule</h2>
+            <p>Strict taxon key <code>MCH9</code>, observation year from 2009 onward, coordinate uncertainty no greater than 1 km.</p>
+            <p>These are reported observations, not confirmed absences or a safety guide for foraging.</p>
+          </div>
+        </aside>
+        <div id="map" aria-label="Map of Boletus edulis observations"></div>
+        <div id="map-status" class="map-status" role="status">Loading observation data…</div>
+      </section>
+    </main>
+    <footer>Source: filtered local GBIF occurrence extract. Map tiles: OpenStreetMap contributors.</footer>
+
+    <script src="vendor/leaflet.js"></script>
+    <script src="vendor/leaflet.markercluster.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
