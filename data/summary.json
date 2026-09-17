@@ -1,37 +1,35 @@
 {
-  "source": "Laji.fi TSV export provided by user",
-  "recordCount": 970,
-  "gridCellCount": 413,
-  "filters": {
-    "scientificName": "Boletus edulis",
-    "minimumYear": 2009,
-    "maximumLocationAccuracyMeters": 50.0,
-    "country": "Finland"
+  "source": "Complete Laji.fi TSV export provided by user",
+  "recordCount": 2139,
+  "mappableRecordCount": 2138,
+  "gridCellCount": 1598,
+  "grid": {
+    "crs": "EPSG:3067",
+    "cellSizeMeters": 1000
+  },
+  "yearRange": [
+    1865,
+    2026
+  ],
+  "accuracy": {
+    "missing": 1,
+    "minimum": 1.0,
+    "maximum": 754162.0
+  },
+  "scientificNameCounts": {
+    "": 5,
+    "Boletus edulis": 2134
   },
   "reliabilityCounts": {
-    "COMMUNITY_VERIFIED": 497,
-    "EXPERT_VERIFIED": 6,
-    "NEUTRAL": 467
+    "COMMUNITY_VERIFIED": 1042,
+    "EXPERT_VERIFIED": 8,
+    "NEUTRAL": 1089
   },
-  "preciseSingleDateCount": 873,
-  "yearCounts": {
-    "2009": 4,
-    "2010": 6,
-    "2011": 4,
-    "2012": 14,
-    "2013": 5,
-    "2014": 10,
-    "2015": 2,
-    "2016": 5,
-    "2017": 16,
-    "2018": 48,
-    "2019": 55,
-    "2020": 180,
-    "2021": 135,
-    "2022": 34,
-    "2023": 134,
-    "2024": 108,
-    "2025": 114,
-    "2026": 96
+  "recordTypeCounts": {
+    "Handled (catched, not preserved)": 13,
+    "Observation": 360,
+    "Photographed": 1675,
+    "Preserved specimen": 79,
+    "Seen": 12
   }
 }

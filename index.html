@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Interactive distribution map for high-precision Boletus edulis observations." />
+    <meta name="description" content="Interactive Finnish 1 km grid explorer for the complete Laji.fi Boletus data export." />
     <title>Porcini in Finland</title>
     <link rel="stylesheet" href="vendor/leaflet.css" />
-    <link rel="stylesheet" href="vendor/MarkerCluster.css" />
-    <link rel="stylesheet" href="vendor/MarkerCluster.Default.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,45 +14,75 @@
         <div>
           <p class="eyebrow">Occurrence explorer</p>
           <h1>Porcini in Finland</h1>
-          <p class="subtitle"><i>Boletus edulis</i> observations in Finland, aggregated into 10 km ETRS-TM35FIN grid cells.</p>
+          <p class="subtitle">Complete Laji.fi export in 1 km ETRS-TM35FIN grid cells. Filter by year, coordinate accuracy, reliability and record type.</p>
         </div>
-        <a class="data-link" href="data/boletus_edulis_laji_2009_50m.csv" download>Download CSV</a>
+        <a class="data-link" href="data/laji_boletus_complete.csv" download>Download complete CSV</a>
       </header>
 
       <section class="map-shell" aria-label="Interactive observation map">
         <aside class="panel" aria-label="Map filters and dataset notes">
           <div class="stat-block">
             <span id="visible-count" class="stat-number">Loading</span>
-            <span class="stat-label">observations shown</span>
+            <span class="stat-label">mappable observations</span>
+            <span id="visible-cells" class="stat-detail">Loading grid cells</span>
           </div>
 
           <fieldset>
             <legend>Observation year</legend>
-            <div class="range-labels"><span id="year-min-label">2009</span><span id="year-max-label">2026</span></div>
+            <div class="range-labels"><span id="year-min-label">1865</span><span id="year-max-label">2026</span></div>
             <label class="sr-only" for="year-min">Earliest year</label>
-            <input id="year-min" type="range" min="2009" max="2026" value="2009" step="1" />
+            <input id="year-min" type="range" min="1865" max="2026" value="1865" step="1" />
             <label class="sr-only" for="year-max">Latest year</label>
-            <input id="year-max" type="range" min="2009" max="2026" value="2026" step="1" />
+            <input id="year-max" type="range" min="1865" max="2026" value="2026" step="1" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Maximum location accuracy</legend>
+            <label class="number-label" for="accuracy-max">Metres, blank means any precision</label>
+            <input id="accuracy-max" class="number-input" type="number" min="1" max="754162" step="1" placeholder="Any precision" />
+            <div class="preset-row" aria-label="Accuracy presets">
+              <button type="button" data-accuracy="20">20 m</button>
+              <button type="button" data-accuracy="50">50 m</button>
+              <button type="button" data-accuracy="100">100 m</button>
+              <button type="button" data-accuracy="1000">1 km</button>
+              <button type="button" data-accuracy="10000">10 km</button>
+              <button type="button" data-accuracy="">Any</button>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Observation reliability</legend>
+            <label class="checkbox"><input type="checkbox" name="reliability" value="COMMUNITY_VERIFIED" checked /> Community verified</label>
+            <label class="checkbox"><input type="checkbox" name="reliability" value="EXPERT_VERIFIED" checked /> Expert verified</label>
+            <label class="checkbox"><input type="checkbox" name="reliability" value="NEUTRAL" checked /> Neutral</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Record type</legend>
+            <label class="checkbox"><input type="checkbox" name="record-type" value="Photographed" checked /> Photographed</label>
+            <label class="checkbox"><input type="checkbox" name="record-type" value="Observation" checked /> Observation</label>
+            <label class="checkbox"><input type="checkbox" name="record-type" value="Preserved specimen" checked /> Preserved specimen</label>
+            <label class="checkbox"><input type="checkbox" name="record-type" value="Seen" checked /> Seen</label>
+            <label class="checkbox"><input type="checkbox" name="record-type" value="Handled (catched, not preserved)" checked /> Handled, not preserved</label>
           </fieldset>
 
           <button id="reset-filters" class="secondary" type="button">Reset filters</button>
-          <button id="fit-map" class="secondary" type="button">Fit visible grid cells</button>
+          <button id="fit-map" class="secondary" type="button">Fit visible 1 km cells</button>
 
           <div class="method-note">
-            <h2>Dataset rule</h2>
-            <p>Laji.fi observations identified as <i>Boletus edulis</i>, dated 2009 onward, with location accuracy no greater than 50 m.</p>
-            <p>Cells are 10 km squares in the Finnish ETRS-TM35FIN national grid (EPSG:3067).</p>
-            <p>These are reported observations, not confirmed absences or a safety guide for foraging.</p>
+            <h2>Dataset and grid</h2>
+            <p id="dataset-total">Loading complete dataset details.</p>
+            <p>Map cells are 1 km × 1 km squares in the Finnish ETRS-TM35FIN national grid (EPSG:3067).</p>
+            <p>Reported observations are not confirmed absences, abundance estimates or food-safety advice.</p>
           </div>
         </aside>
-        <div id="map" aria-label="Map of Boletus edulis observations"></div>
+        <div id="map" aria-label="Map of Boletus observations in 1 km Finnish national-grid cells"></div>
         <div id="map-status" class="map-status" role="status">Loading observation data…</div>
       </section>
     </main>
-    <footer>Source: filtered Laji.fi occurrence export provided by the user. Grid: ETRS-TM35FIN (EPSG:3067), 10 km cells. Map tiles: OpenStreetMap contributors.</footer>
+    <footer>Source: complete Laji.fi occurrence export provided by the user. Grid: ETRS-TM35FIN (EPSG:3067), 1 km cells. Map tiles: OpenStreetMap contributors.</footer>
 
     <script src="vendor/leaflet.js"></script>
-    <script src="vendor/leaflet.markercluster.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
