@@ -1,0 +1,4 @@
+h5py>=3.16
+numpy>=2.5
+pyproj>=3.7
+pytest>=9.1
