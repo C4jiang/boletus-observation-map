@@ -1,5 +1,7 @@
-const DATA_URL = "data/boletus_edulis_fi_2009_high_precision.geojson";
-const FINLAND_VIEW = [[58.6, 19.0], [70.3, 32.0]];
+const RECORDS_URL = "data/boletus_edulis_laji_2009_50m_records.json";
+const GRID_URL = "data/boletus_edulis_laji_2009_50m_etrs_10km_grid.geojson";
+const FINLAND_VIEW = [[59.2, 19.0], [70.3, 32.0]];
+
 const map = L.map("map", { zoomControl: false, preferCanvas: true });
 L.control.zoom({ position: "topright" }).addTo(map);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -14,33 +16,54 @@ const yearMinLabel = document.querySelector("#year-min-label");
 const yearMaxLabel = document.querySelector("#year-max-label");
 const visibleCount = document.querySelector("#visible-count");
 const status = document.querySelector("#map-status");
-const countryInputs = [...document.querySelectorAll('input[name="country"]')];
-const clusters = L.markerClusterGroup({ chunkedLoading: true, showCoverageOnHover: false, maxClusterRadius: 48 });
-map.addLayer(clusters);
-let observations = [];
+const gridLayer = L.geoJSON(null, { style: gridStyle, onEachFeature: bindCell });
+gridLayer.addTo(map);
 
-function selectedCountries() {
-  return new Set(countryInputs.filter((input) => input.checked).map((input) => input.value));
+let records = [];
+let gridFeatures = [];
+
+function colorForCount(count) {
+  if (count >= 10) return "#0c513d";
+  if (count >= 5) return "#167256";
+  if (count >= 2) return "#4d9775";
+  return "#9bcaae";
 }
 
-function popup(feature) {
-  const p = feature.properties;
-  const locality = p.locality || p.stateProvince || "Not reported";
-  return `<h2 class="popup-title"><i>Boletus edulis</i></h2><dl class="popup-grid">
-    <dt>Date</dt><dd>${p.eventDate}</dd>
-    <dt>Place</dt><dd>${locality}</dd>
-    <dt>Country</dt><dd>${p.countryCode}</dd>
-    <dt>Accuracy</dt><dd>${p.coordinateUncertaintyInMeters} m</dd>
-    <dt>Record type</dt><dd>${p.basisOfRecord.replaceAll("_", " ")}</dd>
-    <dt>GBIF ID</dt><dd>${p.gbifID}</dd>
+function gridStyle(feature) {
+  const count = feature.properties.visible_count ?? 0;
+  return {
+    color: "#0c513d",
+    weight: 1,
+    opacity: 0.8,
+    fillColor: colorForCount(count),
+    fillOpacity: count ? 0.72 : 0,
+  };
+}
+
+function popup(properties) {
+  const verifiedNote = properties.verified_count ? `${properties.verified_count} community or expert verified` : "No verified records in this filter";
+  return `<h2 class="popup-title">${properties.grid_id}</h2><dl class="popup-grid">
+    <dt>Cell size</dt><dd>10 km × 10 km</dd>
+    <dt>Observations</dt><dd>${properties.visible_count}</dd>
+    <dt>Reliability</dt><dd>${verifiedNote}</dd>
+    <dt>Years shown</dt><dd>${properties.visible_year_min}-${properties.visible_year_max}</dd>
+    <dt>EPSG:3067 N</dt><dd>${properties.northing_min}-${properties.northing_min + 10000}</dd>
+    <dt>EPSG:3067 E</dt><dd>${properties.easting_min}-${properties.easting_min + 10000}</dd>
   </dl>`;
 }
 
-function activeFeatures() {
+function bindCell(feature, layer) {
+  layer.bindPopup(() => popup(feature.properties));
+  layer.on({
+    mouseover: () => layer.setStyle({ weight: 2.2, fillOpacity: 0.9 }),
+    mouseout: () => gridLayer.resetStyle(layer),
+  });
+}
+
+function activeRecords() {
   const min = Number(yearMin.value);
   const max = Number(yearMax.value);
-  const countries = selectedCountries();
-  return observations.filter((feature) => feature.properties.year >= min && feature.properties.year <= max && countries.has(feature.properties.countryCode));
+  return records.filter((record) => record.year >= min && record.year <= max);
 }
 
 function render() {
@@ -49,33 +72,52 @@ function render() {
   }
   yearMinLabel.textContent = yearMin.value;
   yearMaxLabel.textContent = yearMax.value;
-  const selected = activeFeatures();
-  clusters.clearLayers();
-  const markers = selected.map((feature) => {
-    const [lng, lat] = feature.geometry.coordinates;
-    return L.circleMarker([lat, lng], { radius: 5, color: "#0c513d", weight: 1.25, fillColor: "#167256", fillOpacity: 0.75 })
-      .bindPopup(popup(feature));
+
+  const selected = activeRecords();
+  const byCell = new Map();
+  selected.forEach((record) => {
+    if (!byCell.has(record.grid_id)) byCell.set(record.grid_id, []);
+    byCell.get(record.grid_id).push(record);
   });
-  clusters.addLayers(markers);
+
+  const visibleCells = gridFeatures
+    .filter((feature) => byCell.has(feature.properties.grid_id))
+    .map((feature) => {
+      const cellRecords = byCell.get(feature.properties.grid_id);
+      return {
+        ...feature,
+        properties: {
+          ...feature.properties,
+          visible_count: cellRecords.length,
+          verified_count: cellRecords.filter((record) => ["COMMUNITY_VERIFIED", "EXPERT_VERIFIED"].includes(record.reliability)).length,
+          visible_year_min: Math.min(...cellRecords.map((record) => record.year)),
+          visible_year_max: Math.max(...cellRecords.map((record) => record.year)),
+        },
+      };
+    });
+
+  gridLayer.clearLayers();
+  gridLayer.addData({ type: "FeatureCollection", features: visibleCells });
   visibleCount.textContent = selected.length.toLocaleString();
-  status.textContent = selected.length ? "Select a point for its observation details." : "No observations match the current filters.";
+  status.textContent = visibleCells.length
+    ? `${visibleCells.length} ETRS-TM35FIN 10 km cells contain matching observations.`
+    : "No observations match the current year range.";
 }
 
 function fitVisible() {
-  const selected = activeFeatures();
-  if (!selected.length) return;
-  const bounds = L.latLngBounds(selected.map((f) => [f.geometry.coordinates[1], f.geometry.coordinates[0]]));
-  map.fitBounds(bounds, { padding: [28, 28], maxZoom: 10 });
+  const bounds = gridLayer.getBounds();
+  if (bounds.isValid()) map.fitBounds(bounds, { padding: [28, 28], maxZoom: 8 });
 }
 
 async function load() {
   try {
-    const response = await fetch(DATA_URL);
-    if (!response.ok) throw new Error(`Data request failed (${response.status})`);
-    const geojson = await response.json();
-    observations = geojson.features;
+    const [recordsResponse, gridResponse] = await Promise.all([fetch(RECORDS_URL), fetch(GRID_URL)]);
+    if (!recordsResponse.ok || !gridResponse.ok) throw new Error("Could not retrieve the map dataset");
+    records = await recordsResponse.json();
+    const grid = await gridResponse.json();
+    gridFeatures = grid.features;
     render();
-    status.textContent = "Showing all filtered observations. Select a point for details.";
+    status.textContent = "970 high-precision Laji.fi observations, mapped as Finnish national-grid cells.";
   } catch (error) {
     status.textContent = `Could not load observation data: ${error.message}`;
     status.classList.add("is-error");
@@ -84,12 +126,10 @@ async function load() {
 
 yearMin.addEventListener("input", render);
 yearMax.addEventListener("input", render);
-countryInputs.forEach((input) => input.addEventListener("change", render));
 document.querySelector("#fit-map").addEventListener("click", fitVisible);
 document.querySelector("#reset-filters").addEventListener("click", () => {
   yearMin.value = yearMin.min;
   yearMax.value = yearMax.max;
-  countryInputs.forEach((input) => { input.checked = true; });
   render();
   map.fitBounds(FINLAND_VIEW);
 });

@@ -16,9 +16,9 @@
         <div>
           <p class="eyebrow">Occurrence explorer</p>
           <h1>Porcini in Finland</h1>
-          <p class="subtitle"><i>Boletus edulis</i> observations with high-precision coordinates, 2009-2026.</p>
+          <p class="subtitle"><i>Boletus edulis</i> observations in Finland, aggregated into 10 km ETRS-TM35FIN grid cells.</p>
         </div>
-        <a class="data-link" href="data/boletus_edulis_fi_2009_high_precision.csv" download>Download CSV</a>
+        <a class="data-link" href="data/boletus_edulis_laji_2009_50m.csv" download>Download CSV</a>
       </header>
 
       <section class="map-shell" aria-label="Interactive observation map">
@@ -37,20 +37,13 @@
             <input id="year-max" type="range" min="2009" max="2026" value="2026" step="1" />
           </fieldset>
 
-          <fieldset>
-            <legend>Country</legend>
-            <label class="checkbox"><input type="checkbox" name="country" value="FI" checked /> Finland <span>526</span></label>
-            <label class="checkbox"><input type="checkbox" name="country" value="EE" checked /> Estonia <span>25</span></label>
-            <label class="checkbox"><input type="checkbox" name="country" value="DK" checked /> Denmark <span>2</span></label>
-            <label class="checkbox"><input type="checkbox" name="country" value="NO" checked /> Norway <span>1</span></label>
-          </fieldset>
-
           <button id="reset-filters" class="secondary" type="button">Reset filters</button>
-          <button id="fit-map" class="secondary" type="button">Fit visible observations</button>
+          <button id="fit-map" class="secondary" type="button">Fit visible grid cells</button>
 
           <div class="method-note">
             <h2>Dataset rule</h2>
-            <p>Strict taxon key <code>MCH9</code>, observation year from 2009 onward, coordinate uncertainty no greater than 1 km.</p>
+            <p>Laji.fi observations identified as <i>Boletus edulis</i>, dated 2009 onward, with location accuracy no greater than 50 m.</p>
+            <p>Cells are 10 km squares in the Finnish ETRS-TM35FIN national grid (EPSG:3067).</p>
             <p>These are reported observations, not confirmed absences or a safety guide for foraging.</p>
           </div>
         </aside>
@@ -58,7 +51,7 @@
         <div id="map-status" class="map-status" role="status">Loading observation data…</div>
       </section>
     </main>
-    <footer>Source: filtered local GBIF occurrence extract. Map tiles: OpenStreetMap contributors.</footer>
+    <footer>Source: filtered Laji.fi occurrence export provided by the user. Grid: ETRS-TM35FIN (EPSG:3067), 10 km cells. Map tiles: OpenStreetMap contributors.</footer>
 
     <script src="vendor/leaflet.js"></script>
     <script src="vendor/leaflet.markercluster.js"></script>

@@ -1,0 +1,971 @@
+observation_id,date,year,latitude,longitude,accuracy_m,reliability,record_type,source_collection,province,grid_id
+http://tun.fi/MHU.27880376,2009-08-08,2009,60.68618,23.847359,1.0,NEUTRAL,Observation,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E320000
+http://tun.fi/MHU.28649739,2009-08-10,2009,60.358225,24.614146,1.0,NEUTRAL,Observation,National Butterfly Recording Scheme in Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E360000
+http://tun.fi/MHU.28649759,2009-08-11,2009,60.214967,24.785226,1.0,NEUTRAL,Observation,Hatikka.fi observations,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/MHU.28675747,2009-09-02,2009,60.197291,24.765064,1.0,NEUTRAL,Observation,Hatikka.fi observations,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/MHU.29856082,2010-08-23,2010,60.200152,23.889525,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E320000
+http://tun.fi/MHU.29837113,2010-08-29,2010,62.927981,29.706244,1.0,NEUTRAL,Observation,Hatikka.fi observations,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6980000-E630000
+http://tun.fi/MHU.29856000,2010-09-02,2010,60.409076,25.235169,1.0,NEUTRAL,Observation,Hatikka.fi observations,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E400000
+http://tun.fi/KE.921/LGE.250682/486523,2010-09-09,2010,60.277802,25.173823,10.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/MHU.29857474,2010-09-12,2010,60.230801,24.79414,1.0,NEUTRAL,Observation,Hatikka.fi observations,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/318440353-U,2010-09-14,2010,63.08096,25.84157,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6990000-E440000
+http://tun.fi/KE.8_1034427#2,2011-07-22 [8:55] - 2012-09-25 [18:03],2011,60.662751,23.609544,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E310000
+http://tun.fi/KE.8_1034427#3,2011-07-22 [8:55] - 2012-09-25 [18:03],2011,60.662751,23.609544,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E310000
+http://tun.fi/HR.3211/66217128-U,2011-08-18,2011,66.25997,25.21615,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7350000-E410000
+http://tun.fi/JX.139728#2,2011-08-26,2011,64.035311,23.427638,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7100000-E320000
+http://tun.fi/KE.8_1063645#2,2012-07-10,2012,60.5066,22.271314,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/KE.921/LGE.250699/487083,2012-07-22,2012,63.083975,29.815467,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E640000
+http://tun.fi/KE.921/LGE.250701/487267,2012-07-27,2012,63.038606,28.49329,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E570000
+http://tun.fi/KE.921/LGE.250701/487297,2012-07-27,2012,63.038319,28.492385,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E570000
+http://tun.fi/KE.921/LGE.250702/487348,2012-07-28,2012,63.038506,28.483122,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E570000
+http://tun.fi/KE.921/LGE.250702/487418,2012-07-28,2012,63.040225,28.491277,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E570000
+http://tun.fi/KE.921/LGE.250655/485811,2012-08-03,2012,60.347176,25.212391,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E400000
+http://tun.fi/KE.921/LGE.250715/487646,2012-08-11,2012,63.107637,29.807526,10.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7000000-E640000
+http://tun.fi/KE.921/LGE.250722/488114,2012-08-22,2012,63.055918,29.89421,10.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E640000
+http://tun.fi/KE.921/LGE.971559/2681963,2012-08-22,2012,63.050254,29.904118,10.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6990000-E640000
+http://tun.fi/KE.921/LGE.251484/493702,2012-09-03,2012,60.060555,22.733432,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E260000
+http://tun.fi/KE.921/LGE.251485/493764,2012-09-10,2012,60.596648,23.346299,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E290000
+http://tun.fi/KE.921/LGE.251494/493845,2012-09-20,2012,60.573097,23.356065,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E300000
+http://tun.fi/KE.8_1071274#2,2012-10-31,2012,60.485038,22.225921,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/KE.921/LGE.250659/485980,2013-08-21,2013,60.346058,25.198081,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E400000
+http://tun.fi/KE.8_1100388#2,2013-08-21 [19:13],2013,60.662654,23.609609,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E310000
+http://tun.fi/KE.8_1100777#2,2013-08-27 [16:47],2013,60.66342,23.608998,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E310000
+http://tun.fi/KE.921/LGE.250675/486196,2013-08-31,2013,61.538307,21.566623,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Satakunta (St),ETRS-TM35FIN-10km-N6830000-E210000
+http://tun.fi/KE.921/LGE.250680/486469,2013-10-02,2013,61.953758,21.405065,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Satakunta (St),ETRS-TM35FIN-10km-N6880000-E200000
+http://tun.fi/KE.8_1129556#2,2014-08-23,2014,60.607868,22.005663,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E220000
+http://tun.fi/KE.8_1129769#2,2014-08-24,2014,60.66251,22.403569,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6730000-E240000
+http://tun.fi/KE.8_1129839#11,2014-08-24 [9:46-11:03],2014,60.66695,23.605477,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E310000
+http://tun.fi/JX.1101118#4,2014-08-30,2014,60.231126,24.712998,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/KE.8_1130148#2,2014-08-30,2014,60.687332,22.363245,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6730000-E240000
+http://tun.fi/JX.13761#4,2014-09-04,2014,60.285743,25.209523,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/JX.9151#13,2014-09-05,2014,61.569302,27.427451,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6820000-E520000
+http://tun.fi/KE.8_1130676#2,2014-09-07,2014,60.528014,21.960771,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E220000
+http://tun.fi/KE.8_1131070#2,2014-09-13,2014,61.383528,26.087271,1.0,NEUTRAL,Observation,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E450000
+http://tun.fi/KE.921/LGE.971389/2680530,2014-10-15,2014,60.993143,23.446761,10.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E300000
+http://tun.fi/KE.8_1154166#2,2015-07-28,2015,60.556719,22.121269,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E230000
+http://tun.fi/JX.8919#4,2015-07-29,2015,61.334622,23.55774,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E310000
+http://tun.fi/KE.8_1179314#2,2016-07-14,2016,60.507813,22.257918,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/KE.8_1179801#10,2016-07-22 [9:08-12:01],2016,60.666135,23.613691,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E310000
+http://tun.fi/KE.8_1181021#12,2016-08-03 [18:14-20:42],2016,60.659951,23.607166,1.0,NEUTRAL,Preserved specimen,Hatikka.fi observations,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E310000
+http://tun.fi/KE.921/LGE.299972/689136,2016-08-19,2016,66.309054,25.129006,1.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7350000-E410000
+http://tun.fi/KE.176/57c9e3582d0ed0b6330afba3#Unit1,2016-09-01,2016,64.870907,25.865378,1.0,NEUTRAL,Observation,Löydös Open Finnish Observation Database,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7190000-E440000
+http://tun.fi/JX.13762#4,2017-08-11,2017,60.348526,25.209924,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E400000
+http://tun.fi/JX.30951#28,2017-08-11,2017,61.012426,25.590921,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E420000
+http://tun.fi/JX.71608#2,2017-08-18,2017,60.291991,24.67468,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/JX.13741#4,2017-08-21,2017,62.43685,28.820233,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6920000-E590000
+http://tun.fi/JX.13937#16,2017-08-24,2017,60.329904,24.504769,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E360000
+http://tun.fi/KE.8_1205315#2,2017-08-24,2017,60.483678,22.22911,1.0,NEUTRAL,Observation,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/JX.14212#10,2017-08-29,2017,64.344128,28.050508,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Kainuu (Kn),ETRS-TM35FIN-10km-N7130000-E550000
+http://tun.fi/JX.14384#4,2017-09-02,2017,60.280309,25.19778,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/JX.15523#4,2017-09-14,2017,61.786028,29.31203,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6850000-E620000
+http://tun.fi/JX.25261#4,2017-09-16,2017,66.498498,25.784312,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/JX.569627#2,2017-09-16,2017,60.094612,22.818256,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E260000
+http://tun.fi/JX.16100#19,2017-09-23,2017,62.547246,30.060714,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6930000-E650000
+http://tun.fi/JX.16420#4,2017-09-26,2017,61.692985,24.354955,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6840000-E360000
+http://tun.fi/JX.16524#7,2017-09-26,2017,61.713261,24.353747,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6840000-E360000
+http://tun.fi/JX.16961#7,2017-10-01,2017,60.188001,25.144205,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/KE.8_1208079#2,2017-10-20,2017,60.482182,22.230769,1.0,NEUTRAL,Photographed,Hatikka.fi observations,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/JX.59425#4,2018-08-13,2018,66.58549,25.67405,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E440000
+http://tun.fi/JX.60039#34,2018-08-17,2018,63.109221,29.807408,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7000000-E640000
+http://tun.fi/JX.60283#4,2018-08-17,2018,63.108107,29.807893,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7000000-E640000
+http://tun.fi/JX.62221#8,2018-08-17,2018,62.817215,30.001547,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6960000-E650000
+http://tun.fi/JX.60518#78,2018-08-19,2018,62.152762,25.689763,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/JX.61169#3,2018-08-19,2018,61.450003,23.857357,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.988367#9,2018-08-19,2018,62.195511,24.779952,1.0,NEUTRAL,Observation,"Notebook, general observations",Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E380000
+http://tun.fi/JX.60676#4,2018-08-21,2018,60.555589,24.751814,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6710000-E370000
+http://tun.fi/JX.65964#2,2018-08-21,2018,62.602745,29.754157,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/JX.61198#2,2018-08-22,2018,65.061623,25.590006,10.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E430000
+http://tun.fi/JX.61138#2,2018-08-23,2018,64.241871,25.002667,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7120000-E400000
+http://tun.fi/JX.61209#3,2018-08-23,2018,60.767679,24.905083,1.0,EXPERT_VERIFIED,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E380000
+http://tun.fi/JX.61322#2,2018-08-23,2018,64.896642,25.782189,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7190000-E440000
+http://tun.fi/JX.61719#2,2018-08-25,2018,60.107048,22.929326,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E270000
+http://tun.fi/JX.147718#3,2018-08-27,2018,67.115611,28.313494,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Sompion Lappi (SoL),ETRS-TM35FIN-10km-N7440000-E550000
+http://tun.fi/JX.87771#6,2018-08-27,2018,60.374383,25.14508,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/JX.242243#2,2018-08-28,2018,62.1783,26.9688,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6890000-E490000
+http://tun.fi/JX.62138#2,2018-08-28,2018,61.514469,24.023301,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E340000
+http://tun.fi/JX.62203#2,2018-08-28,2018,60.263025,24.863882,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E380000
+http://tun.fi/JX.61183#13,2018-08-28 - 2018-09-02,2018,62.130095,23.924056,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6890000-E330000
+http://tun.fi/JX.62278#2,2018-08-29,2018,60.176257,24.824307,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/JX.62397#8,2018-08-29,2018,64.908191,25.381755,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7190000-E420000
+http://tun.fi/JX.62807#72,2018-08-29,2018,61.668543,23.297813,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6840000-E300000
+http://tun.fi/HR.3211/16065301-U,2018-08-31,2018,60.57717,25.3024,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6710000-E400000
+http://tun.fi/JX.63198#2,2018-09-01,2018,60.629968,23.93911,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E330000
+http://tun.fi/JX.63210#2,2018-09-01,2018,60.196556,25.107373,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.63383#6,2018-09-02,2018,60.346532,25.194503,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E400000
+http://tun.fi/JX.63403#3,2018-09-02,2018,60.346421,25.181279,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/JX.1008710#10,2018-09-03,2018,60.448519,24.845024,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E380000
+http://tun.fi/JX.1047889#15,2018-09-04,2018,63.0709,21.7304,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/JX.63930#2,2018-09-04,2018,60.187636,24.683469,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/JX.65006#10,2018-09-05,2018,60.174582,24.822344,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/122783419-U,2018-09-08,2018,60.29059,24.61385,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/16323988-U,2018-09-08,2018,60.2579,24.62896,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/JX.65497#7,2018-09-10,2018,65.135531,25.290507,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7220000-E410000
+http://tun.fi/JX.69819#2,2018-09-10,2018,63.78375,26.07055,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7070000-E450000
+http://tun.fi/JX.69860#2,2018-09-10,2018,63.80335,26.07635,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7070000-E450000
+http://tun.fi/JX.66406#2,2018-09-11 - 2018-09-13,2018,60.670231,24.914988,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E380000
+http://tun.fi/JX.69225#6,2018-09-16,2018,61.592361,21.900355,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6830000-E220000
+http://tun.fi/JX.67253#3,2018-09-17,2018,60.140585,24.367302,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E350000
+http://tun.fi/JX.1048694#96,2018-09-19,2018,63.0331,21.8304,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6990000-E230000
+http://tun.fi/JX.1048979#4,2018-09-21,2018,63.0794,21.719,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/JX.1049099#38,2018-09-23,2018,63.2429,21.5686,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7020000-E220000
+http://tun.fi/JX.68887#2,2018-09-24,2018,60.195072,24.915433,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.69229#49,2018-09-25,2018,61.701605,27.282083,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E510000
+http://tun.fi/JX.1050750#44,2018-09-30,2018,60.459097,22.084766,10.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E220000
+http://tun.fi/JX.72576#13,2018-10-06 [16:00-18:00],2018,62.258148,25.707455,1.0,EXPERT_VERIFIED,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/JX.73035#24,2018-10-13,2018,59.909601,23.204578,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6640000-E280000
+http://tun.fi/JX.1014398#4,2019-07-10,2019,64.972678,25.2037,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7200000-E410000
+http://tun.fi/JX.1014944#4,2019-07-13,2019,60.276541,25.22026,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/JX.1016498#13,2019-07-17,2019,60.335727,23.208726,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E290000
+http://tun.fi/JX.1016943#4,2019-07-18,2019,62.655824,24.060259,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6950000-E340000
+http://tun.fi/JX.1054803#3,2019-07-18,2019,60.424448,22.894528,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E270000
+http://tun.fi/JX.1016301#4,2019-07-19,2019,62.958411,22.966387,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6980000-E290000
+http://tun.fi/JX.1016736#3,2019-07-20,2019,60.483201,25.162848,1.0,EXPERT_VERIFIED,Observation,"Observation from the ""Which species?"" input system",Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/JX.1017356#4,2019-07-23,2019,66.58311,25.65976,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E440000
+http://tun.fi/HR.3211/29433387-U,2019-07-24,2019,60.16001,25.44753,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E410000
+http://tun.fi/HR.3211/29560573-U,2019-07-26,2019,60.33046,24.46246,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E350000
+http://tun.fi/HR.3211/30528716-U,2019-08-10,2019,60.29611,24.51437,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/JX.1021164#4,2019-08-13,2019,60.189941,25.137066,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1023109#10,2019-08-21,2019,60.114482,23.527388,1.0,NEUTRAL,Observation,"Notebook, general observations",Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E300000
+http://tun.fi/HR.3211/31464058-U,2019-08-25,2019,60.33095,24.46221,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E350000
+http://tun.fi/JX.1024321#4,2019-08-26,2019,61.696888,27.403492,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E520000
+http://tun.fi/JX.1024375#79,2019-08-26,2019,60.325551,24.752486,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/JX.1034574#4,2019-08-26,2019,62.407453,24.791595,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6920000-E380000
+http://tun.fi/JX.1034088#10,2019-08-27,2019,60.126202,23.517112,1.0,NEUTRAL,Observation,"Notebook, general observations",Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E300000
+http://tun.fi/JX.1034089#35,2019-08-28,2019,62.194779,24.783623,1.0,NEUTRAL,Observation,"Notebook, general observations",Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E380000
+http://tun.fi/JX.1034120#4,2019-08-28,2019,62.602962,29.753246,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/JX.1034095#10,2019-08-29,2019,61.808408,29.329957,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6850000-E620000
+http://tun.fi/JX.1034094#31,2019-08-30,2019,62.252481,25.677897,1.0,NEUTRAL,Observation,"Notebook, general observations",Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/JX.1034157#7,2019-08-30,2019,64.051469,23.646216,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7100000-E330000
+http://tun.fi/JX.1034613#4,2019-09-01,2019,60.928569,23.452798,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E300000
+http://tun.fi/JX.1034794#4,2019-09-01,2019,66.52998,25.56483,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E430000
+http://tun.fi/JX.1034945#10,2019-09-02,2019,62.249625,25.723287,1.0,NEUTRAL,Observation,"Notebook, general observations",Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/JX.1035148#17,2019-09-03,2019,64.996041,25.483941,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7200000-E420000
+http://tun.fi/HR.3211/32151390-U,2019-09-05,2019,63.52748,24.66355,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7040000-E380000
+http://tun.fi/JX.1035621#4,2019-09-05,2019,60.344817,25.215663,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E400000
+http://tun.fi/JX.1035797#4,2019-09-06,2019,65.000138,25.498815,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7200000-E420000
+http://tun.fi/JX.1037298#10,2019-09-06,2019,60.625864,25.095259,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6720000-E390000
+http://tun.fi/JX.1047083#4,2019-09-10,2019,63.77873,26.06583,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7070000-E450000
+http://tun.fi/HR.3211/32515184-U,2019-09-11,2019,60.27633,24.45188,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/HR.3211/32515548-U,2019-09-11,2019,60.2779,24.45051,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/HR.3211/32628947-U,2019-09-13,2019,60.2121,24.95906,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/32686633-U,2019-09-14,2019,60.25691,24.50414,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/JX.1037972#41,2019-09-14,2019,60.829008,24.582976,1.0,NEUTRAL,Photographed,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E360000
+http://tun.fi/JX.1056939#4,2019-09-14,2019,66.323086,26.294443,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7350000-E460000
+http://tun.fi/JX.2388923#32,2019-09-14,2019,62.904,27.602,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/JX.1038357#4,2019-09-17,2019,60.908973,23.144672,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E290000
+http://tun.fi/JX.1039138#4,2019-09-21,2019,62.725722,22.205179,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6960000-E250000
+http://tun.fi/JX.1039588#4,2019-09-22,2019,60.316985,25.42825,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E410000
+http://tun.fi/JX.1043699#16,2019-09-22,2019,62.7848,22.3805,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6970000-E260000
+http://tun.fi/JX.1043699#30,2019-09-22,2019,62.7858,22.3802,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6970000-E260000
+http://tun.fi/JX.1039728#7,2019-09-23,2019,60.844271,23.026425,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E280000
+http://tun.fi/JX.1039759#4,2019-09-23,2019,60.842149,23.02918,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E280000
+http://tun.fi/JX.1039850#14,2019-09-23,2019,60.728013,24.740179,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E370000
+http://tun.fi/JX.1039974#4,2019-09-24,2019,61.486034,27.25355,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E510000
+http://tun.fi/JX.1053270#3,2019-09-24,2019,61.40699,27.32814,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6800000-E510000
+http://tun.fi/JX.1101119#28,2019-09-27,2019,61.569158,21.490893,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6830000-E200000
+http://tun.fi/JX.1040799#100,2019-09-28,2019,61.551097,21.69528,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6830000-E210000
+http://tun.fi/JX.1053505#3,2019-09-29,2019,60.412128,22.91144,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E270000
+http://tun.fi/JX.1042212#127,2019-10-05,2019,60.159634,25.082903,1.0,EXPERT_VERIFIED,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1043139#16,2019-10-09 [15:00-18:00],2019,62.186281,25.878745,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E440000
+http://tun.fi/JX.1043061#55,2019-10-10,2019,61.42379,25.705909,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E430000
+http://tun.fi/HR.3211/50530227-U,2020-06-22,2020,60.93385,25.98401,39.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E440000
+http://id.luomus.fi/MY.12445058,2020-06-29,2020,60.343202,25.683784,1.0,NEUTRAL,Preserved specimen,Agaricales Fennoscandiae orientalis,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/HR.3211/52255644-U,2020-07-07,2020,62.41742,30.01431,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6920000-E650000
+http://tun.fi/HR.3211/52258660-U,2020-07-07,2020,60.21629,24.88796,48.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/52566527-U,2020-07-10,2020,62.503,26.39437,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6930000-E460000
+http://tun.fi/JX.1142206#123,2020-07-11 - 2020-08-12,2020,61.462,23.811,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/52772141-U,2020-07-12,2020,60.21118,24.90734,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/52774620-U,2020-07-12,2020,60.21123,24.90739,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1200367#75,2020-07-12,2020,62.318695,26.35392,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E460000
+http://tun.fi/KE.176/5f0b4825d5de584b628fe063#Unit1,2020-07-12,2020,60.115656,24.544207,1.0,NEUTRAL,Observation,Löydös Open Finnish Observation Database,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E360000
+http://tun.fi/JX.1139550#4,2020-07-14,2020,61.232029,25.635304,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E420000
+http://tun.fi/HR.3211/53126227-U,2020-07-15,2020,60.5396,24.25786,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E340000
+http://tun.fi/HR.3211/53248706-U,2020-07-16,2020,60.47924,27.47363,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6700000-E520000
+http://tun.fi/HR.3211/53258931-U,2020-07-16,2020,61.67,25.68789,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E430000
+http://tun.fi/HR.3211/53346371-U,2020-07-17,2020,60.21136,24.90728,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/53348125-U,2020-07-17,2020,60.21134,24.90689,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/53385680-U,2020-07-17,2020,60.47088,25.01584,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/JX.1110352#67,2020-07-17,2020,60.723129,24.848901,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E380000
+http://tun.fi/JX.1140414#4,2020-07-17,2020,60.206698,25.172193,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1143093#3,2020-07-17,2020,60.383055,25.68346,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/HR.3211/53450085-U,2020-07-18,2020,63.64937,27.15525,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7050000-E500000
+http://tun.fi/HR.3211/53453568-U,2020-07-18,2020,62.96125,27.73917,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E530000
+http://tun.fi/HR.3211/53460710-U,2020-07-18,2020,61.85351,28.95187,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6850000-E600000
+http://tun.fi/HR.3211/53496184-U,2020-07-18,2020,64.53221,26.71724,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Kainuu (Kn),ETRS-TM35FIN-10km-N7150000-E480000
+http://tun.fi/HR.3211/53507148-U,2020-07-18,2020,60.98828,25.50172,29.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E410000
+http://tun.fi/HR.3211/53518764-U,2020-07-18,2020,61.63928,25.63846,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E420000
+http://tun.fi/JX.1140773#4,2020-07-18,2020,63.138304,23.139927,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7000000-E300000
+http://tun.fi/HR.3211/53602038-U,2020-07-19,2020,60.61344,25.2208,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6720000-E400000
+http://tun.fi/HR.3211/53714613-U,2020-07-20,2020,62.65197,27.0693,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6940000-E500000
+http://tun.fi/HR.3211/53714692-U,2020-07-20,2020,62.65202,27.06929,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6940000-E500000
+http://tun.fi/HR.3211/53714742-U,2020-07-20,2020,62.65196,27.06922,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6940000-E500000
+http://tun.fi/HR.3211/53728205-U,2020-07-20,2020,60.52541,26.84818,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6700000-E490000
+http://tun.fi/HR.3211/53754559-U,2020-07-20,2020,60.35771,25.92964,24.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E440000
+http://tun.fi/HR.3211/53812557-U,2020-07-21,2020,62.30826,29.70254,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6910000-E640000
+http://tun.fi/HR.3211/53822029-U,2020-07-21,2020,61.25931,24.82467,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6790000-E380000
+http://tun.fi/HR.3211/53831696-U,2020-07-21,2020,62.65199,27.06944,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6940000-E500000
+http://tun.fi/HR.3211/53836721-U,2020-07-21,2020,61.13027,27.90602,30.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6770000-E540000
+http://tun.fi/HR.3211/53837333-U,2020-07-21,2020,61.5203,23.87752,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/58317732-U,2020-07-21,2020,60.77076,23.87066,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E320000
+http://tun.fi/HR.3211/53924912-U,2020-07-22,2020,60.33108,24.46225,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E350000
+http://tun.fi/HR.3211/53935614-U,2020-07-22,2020,61.48209,27.4892,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E520000
+http://tun.fi/HR.3211/53968343-U,2020-07-22,2020,59.84466,23.11907,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6640000-E280000
+http://tun.fi/JX.1205325#10,2020-07-22,2020,60.448374,24.980731,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E380000
+http://tun.fi/HR.3211/54066007-U,2020-07-23,2020,60.32692,24.69322,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E370000
+http://tun.fi/HR.3211/54172371-U,2020-07-23,2020,61.39708,22.61821,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6810000-E260000
+http://tun.fi/HR.3211/59706316-U,2020-07-23,2020,62.89411,26.34752,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6970000-E460000
+http://tun.fi/JX.1142400#4,2020-07-23,2020,66.498156,25.745408,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/JX.1142418#10,2020-07-23,2020,60.507939,21.211813,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E180000
+http://tun.fi/JX.1142545#50,2020-07-23,2020,66.505753,25.728119,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/HR.3211/54144613-U,2020-07-24,2020,61.37888,23.80228,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E320000
+http://tun.fi/HR.3211/54145135-U,2020-07-24,2020,60.76557,27.3759,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6730000-E520000
+http://tun.fi/HR.3211/54180384-U,2020-07-24,2020,65.47921,25.96691,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7260000-E450000
+http://tun.fi/HR.3211/54256281-U,2020-07-25,2020,60.19518,23.67445,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E310000
+http://tun.fi/HR.3211/54284116-U,2020-07-25,2020,60.38954,24.75803,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E370000
+http://tun.fi/JX.1143630#14,2020-07-25,2020,64.059945,23.645192,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7100000-E330000
+http://tun.fi/JX.1143665#4,2020-07-25,2020,66.58336,25.67406,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E440000
+http://tun.fi/HR.3211/54400252-U,2020-07-26,2020,60.98545,25.50037,34.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E410000
+http://tun.fi/HR.3211/54410582-U,2020-07-26,2020,60.32052,25.05401,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/54418516-U,2020-07-26,2020,61.44007,23.82837,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/54420398-U,2020-07-26,2020,61.44286,23.83788,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/54421939-U,2020-07-26,2020,61.47326,27.34089,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E510000
+http://tun.fi/JX.1143253#7,2020-07-26,2020,60.808046,23.482787,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E300000
+http://tun.fi/HR.3211/54545579-U,2020-07-27,2020,60.18164,24.98906,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/55182890-U,2020-07-27,2020,62.16329,29.77257,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6890000-E640000
+http://tun.fi/HR.3211/54611265-U,2020-07-28,2020,61.85035,22.93017,30.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6860000-E280000
+http://tun.fi/HR.3211/54611977-U,2020-07-28,2020,61.54736,23.80823,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/54623060-U,2020-07-28,2020,61.73986,29.54277,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E630000
+http://tun.fi/HR.3211/54624085-U,2020-07-28,2020,62.33667,25.37024,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6910000-E410000
+http://tun.fi/HR.3211/54631878-U,2020-07-28,2020,62.33433,25.37447,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6910000-E410000
+http://tun.fi/HR.3211/54640327-U,2020-07-28,2020,61.8493,21.5403,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6860000-E210000
+http://tun.fi/HR.3211/54643344-U,2020-07-28,2020,60.37204,24.77343,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E370000
+http://tun.fi/HR.3211/77569893-U,2020-07-28,2020,61.0692,24.11168,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E340000
+http://tun.fi/HR.3211/54720922-U,2020-07-29,2020,63.10949,23.03809,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7000000-E300000
+http://tun.fi/HR.3211/54721135-U,2020-07-29,2020,61.50618,27.2846,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E510000
+http://tun.fi/HR.3211/54731096-U,2020-07-29,2020,62.55283,25.8762,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6930000-E440000
+http://tun.fi/HR.3211/54736521-U,2020-07-29,2020,60.78928,24.38562,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E350000
+http://tun.fi/HR.3211/54737693-U,2020-07-29,2020,62.20541,30.37782,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6900000-E670000
+http://tun.fi/HR.3211/54762393-U,2020-07-29,2020,60.32185,25.02631,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/JX.1144062#4,2020-07-29,2020,60.845042,23.03848,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E280000
+http://tun.fi/JX.1145964#22,2020-07-29,2020,63.219331,29.296326,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7010000-E610000
+http://tun.fi/HR.3211/54817243-U,2020-07-30,2020,60.04034,23.7177,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E310000
+http://tun.fi/HR.3211/54847487-U,2020-07-30,2020,61.33755,22.94761,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6800000-E280000
+http://tun.fi/JX.1144374#7,2020-07-30,2020,66.509916,25.767281,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/JX.1144611#68,2020-07-30,2020,61.839752,25.433966,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6850000-E410000
+http://tun.fi/HR.3211/54912639-U,2020-07-31,2020,62.23538,25.64914,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E420000
+http://tun.fi/HR.3211/54944163-U,2020-07-31,2020,63.80898,25.20431,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7070000-E410000
+http://tun.fi/HR.3211/55025590-U,2020-08-01,2020,60.11516,23.79766,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E320000
+http://tun.fi/HR.3211/55032264-U,2020-08-01,2020,62.79907,25.89736,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6960000-E440000
+http://tun.fi/HR.3211/58816449-U,2020-08-01,2020,60.33385,25.14478,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/JX.1144691#4,2020-08-01,2020,61.231412,25.635767,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E420000
+http://tun.fi/HR.3211/55137067-U,2020-08-02,2020,61.16699,28.77203,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E590000
+http://tun.fi/HR.3211/55139000-U,2020-08-02,2020,62.92304,27.65903,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://id.luomus.fi/MY.12149245,2020-08-03,2020,62.2062,25.8218,1.0,NEUTRAL,Preserved specimen,Agaricales Fennoscandiae orientalis,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/HR.3211/55255336-U,2020-08-03,2020,64.23583,25.75975,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7120000-E430000
+http://tun.fi/HR.3211/55263412-U,2020-08-03,2020,61.67322,27.12703,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6830000-E500000
+http://tun.fi/JX.1145386#21,2020-08-03,2020,64.027853,23.51366,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7100000-E320000
+http://tun.fi/JX.1145386#68,2020-08-03,2020,64.010012,23.398313,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7100000-E320000
+http://tun.fi/HR.3211/55408043-U,2020-08-04,2020,63.39014,22.38194,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7030000-E260000
+http://tun.fi/JX.1145648#10,2020-08-04,2020,61.657627,23.475205,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6840000-E310000
+http://tun.fi/JX.1203051#7,2020-08-04,2020,62.318677,26.344056,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E460000
+http://tun.fi/HR.3211/55473022-U,2020-08-05,2020,61.29028,26.25669,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6790000-E460000
+http://tun.fi/HR.3211/55475276-U,2020-08-05,2020,61.30818,28.75548,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6790000-E590000
+http://tun.fi/HR.3211/55489532-U,2020-08-05,2020,60.29725,25.1572,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/55489821-U,2020-08-05,2020,60.2948,25.15706,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/55577022-U,2020-08-06,2020,61.06594,25.78731,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E430000
+http://tun.fi/HR.3211/55577560-U,2020-08-06,2020,61.06313,25.78623,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E430000
+http://tun.fi/HR.3211/55589029-U,2020-08-06,2020,59.93072,23.33582,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6640000-E290000
+http://tun.fi/JX.1146044#10,2020-08-06,2020,60.355639,25.723464,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/HR.3211/56004015-U,2020-08-07,2020,61.06244,28.18206,31.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6770000-E560000
+http://tun.fi/HR.3211/55770616-U,2020-08-08,2020,61.96459,23.01784,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6870000-E290000
+http://tun.fi/HR.3211/55772381-U,2020-08-08,2020,62.29072,26.13392,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E450000
+http://tun.fi/HR.3211/55778349-U,2020-08-08,2020,62.59352,26.7431,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6940000-E480000
+http://tun.fi/HR.3211/55810110-U,2020-08-08,2020,61.22597,28.16526,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E560000
+http://tun.fi/JX.1146513#22,2020-08-08,2020,63.089593,23.105513,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7000000-E300000
+http://tun.fi/JX.1146750#7,2020-08-08,2020,63.987864,23.762212,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7090000-E340000
+http://tun.fi/HR.3211/55886723-U,2020-08-09,2020,61.44506,26.78305,18.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E480000
+http://tun.fi/HR.3211/55894597-U,2020-08-09,2020,61.44487,26.78192,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E480000
+http://tun.fi/HR.3211/55895646-U,2020-08-09,2020,61.44491,26.78319,17.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E480000
+http://tun.fi/HR.3211/55896260-U,2020-08-09,2020,63.0848,25.8404,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6990000-E440000
+http://tun.fi/HR.3211/55897551-U,2020-08-09,2020,63.08372,25.83854,17.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6990000-E440000
+http://tun.fi/HR.3211/55897674-U,2020-08-09,2020,63.08894,25.83777,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6990000-E440000
+http://tun.fi/HR.3211/56124112-U,2020-08-09,2020,61.41,23.7378,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E320000
+http://tun.fi/JX.1147752#4,2020-08-09,2020,60.592031,21.387118,10.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6730000-E190000
+http://tun.fi/JX.1147350#4,2020-08-10,2020,62.39392,28.78981,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6910000-E590000
+http://tun.fi/HR.3211/56199594-U,2020-08-12,2020,60.27078,24.46674,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/JX.1147715#10,2020-08-12,2020,64.52247,27.7923,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Kainuu (Kn),ETRS-TM35FIN-10km-N7150000-E530000
+http://tun.fi/HR.3211/56297302-U,2020-08-13,2020,60.20774,24.9564,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1147846#19,2020-08-13,2020,61.467874,23.372975,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E300000
+http://tun.fi/HR.3211/56392243-U,2020-08-14,2020,60.21594,24.95118,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/56505245-U,2020-08-15,2020,62.30402,25.6677,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/HR.3211/56532834-U,2020-08-15,2020,61.69469,27.40569,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E520000
+http://tun.fi/HR.3211/56542741-U,2020-08-15,2020,60.23516,25.13851,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1791374#23,2020-08-15,2020,61.559,23.519,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E310000
+http://tun.fi/HR.3211/56616483-U,2020-08-16,2020,61.03151,22.50767,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6770000-E250000
+http://tun.fi/JX.1148532#19,2020-08-16,2020,60.21303,24.915299,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1156722#4,2020-08-18,2020,63.073798,22.07804,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E250000
+http://tun.fi/JX.1151335#7,2020-08-22,2020,63.836934,23.122381,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7080000-E300000
+http://tun.fi/HR.3211/58322003-U,2020-09-02,2020,63.50336,24.57874,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7040000-E370000
+http://tun.fi/JX.1153905#85,2020-09-02,2020,60.201252,25.026133,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1154577#7,2020-09-03,2020,62.206497,28.942762,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6890000-E600000
+http://tun.fi/JX.1155419#4,2020-09-07,2020,68.973438,26.987822,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Inarin Lappi (InL),ETRS-TM35FIN-10km-N7650000-E490000
+http://tun.fi/JX.1155851#34,2020-09-09,2020,60.675323,27.704758,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6720000-E530000
+http://tun.fi/JX.1155971#13,2020-09-10,2020,60.530228,27.569835,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6710000-E530000
+http://tun.fi/JX.1155972#58,2020-09-10,2020,60.527833,27.56672,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6710000-E530000
+http://tun.fi/JX.1156027#4,2020-09-10,2020,60.39069,25.699024,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/JX.1158807#10,2020-09-10,2020,65.20248,26.29302,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7230000-E460000
+http://tun.fi/HR.3211/59218836-U,2020-09-11,2020,61.69842,27.41305,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E520000
+http://tun.fi/JX.1156264#4,2020-09-11,2020,60.3604,25.69678,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/HR.3211/59601749-U,2020-09-14,2020,60.24016,24.98648,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1156934#16,2020-09-14,2020,60.233707,25.023899,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1157503#13,2020-09-15,2020,61.687584,27.260399,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6830000-E510000
+http://tun.fi/HR.3211/59766261-U,2020-09-16,2020,60.20628,24.99883,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/59785420-U,2020-09-16,2020,60.34809,24.90522,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E380000
+http://tun.fi/HR.3211/59956447-U,2020-09-18,2020,60.02676,22.57398,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E250000
+http://tun.fi/JX.1157859#10,2020-09-18,2020,62.092655,30.144607,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6880000-E660000
+http://tun.fi/JX.1158036#4,2020-09-18,2020,62.089343,30.160129,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6880000-E660000
+http://tun.fi/HR.3211/60065538-U,2020-09-19,2020,60.19082,25.00029,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/60074386-U,2020-09-19,2020,60.43809,23.04057,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/JX.1158120#115,2020-09-19,2020,62.046042,30.259298,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6880000-E670000
+http://tun.fi/JX.1159422#26,2020-09-19,2020,62.045604,30.250822,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6880000-E660000
+http://tun.fi/HR.3211/60184319-U,2020-09-20,2020,63.21179,25.63153,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N7000000-E430000
+http://tun.fi/JX.1158515#4,2020-09-21,2020,60.353109,25.671062,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/JX.1158769#7,2020-09-22,2020,60.26605,25.838706,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E430000
+http://tun.fi/JX.1158770#4,2020-09-22,2020,60.678081,24.42233,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E350000
+http://tun.fi/HR.3211/60499102-U,2020-09-23,2020,60.41506,23.01608,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/78603159-U,2020-09-24,2020,64.25,23.91406,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7120000-E350000
+http://tun.fi/HR.3211/60723466-U,2020-09-25,2020,60.02314,24.04375,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6650000-E330000
+http://tun.fi/JX.1159432#4,2020-09-25,2020,60.265489,25.715933,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E420000
+http://tun.fi/HR.3211/60815390-U,2020-09-26,2020,60.40225,22.31275,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/60826811-U,2020-09-26,2020,60.60973,21.26815,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6730000-E180000
+http://tun.fi/JX.1169406#18,2020-09-26,2020,63.088053,21.675257,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/JX.1169406#4,2020-09-26,2020,63.088746,21.674348,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/JX.1169406#69,2020-09-26,2020,63.08189,21.682474,10.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/HR.3211/61233984-U,2020-09-27,2020,63.37076,25.57462,39.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N7020000-E420000
+http://tun.fi/HR.3211/61202491-U,2020-09-29,2020,60.21295,24.98965,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1161669#10,2020-10-03,2020,60.160656,25.033811,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1161881#7,2020-10-03,2020,63.073633,22.077741,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E250000
+http://tun.fi/HR.3211/61652374-U,2020-10-04,2020,60.24427,24.61448,23.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/61664165-U,2020-10-04,2020,62.92881,27.64618,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/HR.3211/62566135-U,2020-10-14,2020,61.20624,24.05439,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E340000
+http://tun.fi/HR.3211/88832011-U,2021-07-27,2021,61.77918,27.3149,32.0,EXPERT_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E510000
+http://tun.fi/JX.1263369#13,2021-07-30,2021,62.194854,24.78302,1.0,NEUTRAL,Observation,"Notebook, general observations",Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E380000
+http://tun.fi/JX.1265233#15,2021-08-05 [20:53],2021,61.658951,23.462506,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6840000-E310000
+http://tun.fi/JX.1265315#3,2021-08-06 [13:34-13:34],2021,63.090072,23.106964,1.0,EXPERT_VERIFIED,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7000000-E300000
+http://tun.fi/JX.1265543#6,2021-08-06 [20:57],2021,61.65818,23.476641,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6840000-E310000
+http://tun.fi/JX.1265543#15,2021-08-06 [21:17],2021,61.658704,23.473751,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6840000-E310000
+http://tun.fi/HR.3211/90570741-U,2021-08-08,2021,61.06781,24.11366,27.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E340000
+http://tun.fi/JX.1265852#3,2021-08-08,2021,60.976123,25.561591,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E420000
+http://tun.fi/JX.1265902#15,2021-08-08 [16:38],2021,61.519995,23.877674,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/90663221-U,2021-08-09,2021,62.62027,29.67989,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E630000
+http://tun.fi/JX.1266231#3,2021-08-09,2021,65.15495,25.39343,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7220000-E420000
+http://tun.fi/HR.3211/91383604-U,2021-08-10,2021,61.90312,27.20562,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6860000-E510000
+http://tun.fi/JX.1266613#3,2021-08-10,2021,60.526659,25.116205,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6710000-E390000
+http://tun.fi/HR.3211/90797781-U,2021-08-11,2021,63.6246,27.08588,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7050000-E500000
+http://tun.fi/HR.3211/90866440-U,2021-08-12,2021,63.86377,24.95089,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7080000-E390000
+http://tun.fi/HR.3211/91224896-U,2021-08-13,2021,61.37238,23.37186,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E300000
+http://tun.fi/HR.3211/91106824-U,2021-08-14,2021,61.86869,23.89433,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6860000-E330000
+http://tun.fi/HR.3211/91226701-U,2021-08-15,2021,61.79766,23.6428,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6850000-E320000
+http://tun.fi/HR.3211/91237721-U,2021-08-15,2021,60.40409,22.33394,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/JX.1267862#6,2021-08-15,2021,60.381404,25.697916,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E420000
+http://tun.fi/HR.3211/91383387-U,2021-08-16,2021,61.83086,24.28742,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6850000-E350000
+http://tun.fi/HR.3211/91398685-U,2021-08-16,2021,62.51766,24.13741,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6930000-E350000
+http://tun.fi/HR.3211/91413530-U,2021-08-16,2021,60.58071,25.58968,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6710000-E420000
+http://tun.fi/HR.3211/91959654-U,2021-08-16,2021,62.27676,25.80797,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/JX.1268096#6,2021-08-16 [13:46],2021,60.380996,22.341081,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/JX.1268223#12,2021-08-16 [20:40],2021,62.244972,25.663981,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/HR.3211/91505869-U,2021-08-17,2021,60.79336,22.39199,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6740000-E240000
+http://tun.fi/HR.3211/91507070-U,2021-08-17,2021,60.47844,22.6839,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E260000
+http://tun.fi/HR.3211/91509716-U,2021-08-17,2021,61.46835,23.89112,21.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/91523155-U,2021-08-17,2021,60.94636,22.16949,22.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6760000-E230000
+http://tun.fi/HR.3211/91540611-U,2021-08-17,2021,62.4167,25.91736,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6920000-E440000
+http://tun.fi/HR.3211/91540927-U,2021-08-17,2021,62.41729,25.91739,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6920000-E440000
+http://tun.fi/HR.3211/91546911-U,2021-08-17,2021,60.24985,24.79382,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/HR.3211/91548058-U,2021-08-17,2021,60.24966,24.79328,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/HR.3211/91554698-U,2021-08-17,2021,62.12472,29.0837,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6880000-E600000
+http://tun.fi/HR.3211/91565145-U,2021-08-17,2021,60.24302,24.80236,25.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/JX.1329058#9,2021-08-17,2021,62.108186,30.26634,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6890000-E670000
+http://tun.fi/HR.3211/91612113-U,2021-08-18,2021,62.85086,23.84363,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N6970000-E330000
+http://tun.fi/HR.3211/91639197-U,2021-08-18,2021,63.55803,29.0166,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7040000-E600000
+http://tun.fi/HR.3211/91644880-U,2021-08-18,2021,60.17962,24.9906,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/91648376-U,2021-08-18,2021,61.13259,21.47781,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6790000-E200000
+http://tun.fi/HR.3211/91656378-U,2021-08-18,2021,61.35114,23.80271,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E320000
+http://tun.fi/HR.3211/91657508-U,2021-08-18,2021,62.25143,25.81904,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/HR.3211/91664780-U,2021-08-18,2021,61.35107,23.80195,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E320000
+http://tun.fi/JX.1268890#6,2021-08-18 [16:20],2021,60.394565,22.402383,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/JX.1268958#9,2021-08-18 [18:21-20:28],2021,62.629004,29.867648,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/HR.3211/91718458-U,2021-08-19,2021,63.65343,22.89981,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7060000-E290000
+http://tun.fi/HR.3211/91720512-U,2021-08-19,2021,62.13723,25.6887,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/HR.3211/91722224-U,2021-08-19,2021,61.44961,23.74264,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E320000
+http://tun.fi/HR.3211/91728143-U,2021-08-19,2021,60.35041,22.36218,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E240000
+http://tun.fi/HR.3211/91756830-U,2021-08-19,2021,61.46834,23.48383,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E310000
+http://tun.fi/HR.3211/91761706-U,2021-08-19,2021,60.38581,23.96809,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E330000
+http://tun.fi/KE.921/LGE.929167/2572871,2021-08-19,2021,64.165882,27.887604,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Kainuu (Kn),ETRS-TM35FIN-10km-N7110000-E540000
+http://tun.fi/JX.1268948#24,2021-08-19 [17:29-17:58],2021,61.995926,23.65359,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6870000-E320000
+http://tun.fi/HR.3211/91833189-U,2021-08-20,2021,60.24504,25.21542,46.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/HR.3211/91852749-U,2021-08-20,2021,61.67536,27.11213,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6830000-E500000
+http://tun.fi/KE.921/LGE.929171/2573252,2021-08-20,2021,64.140666,27.882915,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Kainuu (Kn),ETRS-TM35FIN-10km-N7110000-E540000
+http://tun.fi/HR.3211/91933332-U,2021-08-21,2021,62.29885,25.75207,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/HR.3211/91934066-U,2021-08-21,2021,62.16993,23.25745,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6890000-E300000
+http://tun.fi/HR.3211/91942101-U,2021-08-21,2021,62.40743,25.83918,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6920000-E440000
+http://tun.fi/HR.3211/91959892-U,2021-08-21,2021,60.20357,25.1104,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/91988999-U,2021-08-21,2021,62.78331,22.75654,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6960000-E280000
+http://tun.fi/JX.1270028#3,2021-08-21,2021,66.582068,25.669023,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E440000
+http://tun.fi/KE.921/LGE.929173/2573409,2021-08-21,2021,64.167784,27.874377,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Kainuu (Kn),ETRS-TM35FIN-10km-N7110000-E540000
+http://tun.fi/JX.1269376#9,2021-08-21 [15:33-16:06],2021,63.51462,23.532477,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7040000-E320000
+http://tun.fi/HR.3211/92073753-U,2021-08-22,2021,61.00912,25.15981,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E400000
+http://tun.fi/HR.3211/92076689-U,2021-08-22,2021,61.34097,23.70903,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E320000
+http://tun.fi/HR.3211/92082488-U,2021-08-22,2021,61.33961,23.70798,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E320000
+http://tun.fi/HR.3211/92087601-U,2021-08-22,2021,61.20684,22.24876,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6790000-E240000
+http://tun.fi/HR.3211/92093295-U,2021-08-22,2021,63.41732,27.5605,18.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7030000-E520000
+http://tun.fi/KE.921/LGE.929175/2573459,2021-08-22,2021,64.337266,28.064155,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Kainuu (Kn),ETRS-TM35FIN-10km-N7130000-E550000
+http://tun.fi/HR.3211/92245390-U,2021-08-23,2021,60.51597,22.35767,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/HR.3211/92379855-U,2021-08-23,2021,60.47784,22.233,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/HR.3211/92462174-U,2021-08-25,2021,62.66385,25.30901,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6940000-E410000
+http://tun.fi/HR.3211/92567340-U,2021-08-26,2021,60.32438,25.75183,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E430000
+http://tun.fi/HR.3211/92578086-U,2021-08-26,2021,60.45362,25.02916,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/HR.3211/92587773-U,2021-08-26,2021,62.652,27.06923,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6940000-E500000
+http://tun.fi/HR.3211/92652570-U,2021-08-27,2021,60.30667,22.31498,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E240000
+http://tun.fi/HR.3211/92652723-U,2021-08-27,2021,63.58709,22.55982,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7050000-E270000
+http://tun.fi/HR.3211/92659341-U,2021-08-27,2021,61.69935,27.25166,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E510000
+http://tun.fi/HR.3211/92669953-U,2021-08-27,2021,63.62561,27.16531,38.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7050000-E500000
+http://tun.fi/HR.3211/92682499-U,2021-08-27,2021,60.60548,23.1148,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E280000
+http://tun.fi/JX.1270820#15,2021-08-27 [16:22],2021,60.842089,23.020787,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E280000
+http://tun.fi/HR.3211/92749625-U,2021-08-28,2021,60.24044,23.80651,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/HR.3211/92762673-U,2021-08-28,2021,60.6399,24.23319,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E340000
+http://tun.fi/HR.3211/92771454-U,2021-08-28,2021,60.53359,22.82853,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E270000
+http://tun.fi/HR.3211/92785583-U,2021-08-28,2021,62.04087,24.11153,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6880000-E340000
+http://tun.fi/HR.3211/92791280-U,2021-08-28,2021,61.61511,26.10948,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E450000
+http://tun.fi/HR.3211/92885097-U,2021-08-28,2021,60.40273,22.39078,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/JX.1271529#3,2021-08-28,2021,60.339346,24.614322,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E360000
+http://tun.fi/JX.1271120#18,2021-08-28 [14:40],2021,60.365676,22.33113,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/92887274-U,2021-08-29,2021,60.02872,24.0448,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6650000-E330000
+http://tun.fi/HR.3211/92892992-U,2021-08-29,2021,60.53388,24.15951,39.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E340000
+http://tun.fi/HR.3211/92894051-U,2021-08-29,2021,63.38172,22.55487,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7030000-E270000
+http://tun.fi/HR.3211/92906550-U,2021-08-29,2021,61.50857,23.82571,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/93026499-U,2021-08-30,2021,62.66718,25.31699,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6940000-E410000
+http://tun.fi/HR.3211/93125282-U,2021-08-31,2021,64.09013,23.40593,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7110000-E320000
+http://tun.fi/HR.3211/93126957-U,2021-08-31,2021,64.09021,23.4058,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7110000-E320000
+http://tun.fi/HR.3211/93142965-U,2021-08-31,2021,61.24462,22.47649,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6790000-E250000
+http://tun.fi/HR.3211/93143058-U,2021-08-31,2021,61.24458,22.47648,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6790000-E250000
+http://tun.fi/HR.3211/93145122-U,2021-08-31,2021,61.24461,22.47659,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6790000-E250000
+http://tun.fi/HR.3211/93231897-U,2021-08-31,2021,62.86761,27.65388,31.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/HR.3211/93228739-U,2021-09-01,2021,61.72086,27.90762,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E540000
+http://tun.fi/HR.3211/93266504-U,2021-09-01,2021,60.40061,22.31335,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/93454992-U,2021-09-03,2021,60.1975,21.90515,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E210000
+http://tun.fi/HR.3211/93464760-U,2021-09-03,2021,60.45359,25.02719,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/HR.3211/93571525-U,2021-09-04,2021,64.78012,25.32415,23.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7180000-E420000
+http://tun.fi/JX.1273277#3,2021-09-04 - 2021-09-05,2021,62.220259,25.808099,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/JX.1273215#18,2021-09-04 [17:44-18:20],2021,60.250306,25.063485,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/93740039-U,2021-09-05,2021,60.35638,25.1174,25.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/JX.1295086#3,2021-09-05,2021,60.088685,22.486299,1.0,NEUTRAL,Observation,"Notebook, general observations",Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E240000
+http://tun.fi/HR.3211/93978978-U,2021-09-07,2021,61.62925,26.09882,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E450000
+http://tun.fi/JX.1273953#18,2021-09-07 [18:23-18:59],2021,61.188141,25.671451,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E420000
+http://tun.fi/HR.3211/94094531-U,2021-09-08,2021,61.65385,26.0728,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E450000
+http://tun.fi/HR.3211/94111840-U,2021-09-08,2021,62.20784,25.90662,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E440000
+http://tun.fi/JX.1274396#9,2021-09-08,2021,61.230115,25.737333,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E430000
+http://tun.fi/JX.1274095#6,2021-09-08 [9:58-10:44],2021,61.21043,25.731503,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E430000
+http://tun.fi/JX.1316897#44,2021-09-09,2021,66.161581,24.999997,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7330000-E400000
+http://tun.fi/HR.3211/94339259-U,2021-09-10,2021,60.76202,23.874,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E320000
+http://tun.fi/HR.3211/94436318-U,2021-09-10,2021,63.83356,22.91037,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7080000-E290000
+http://tun.fi/JX.1274507#3,2021-09-10,2021,66.129186,24.716545,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7330000-E390000
+http://tun.fi/JX.1274990#24,2021-09-10,2021,66.058306,24.727411,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7320000-E390000
+http://tun.fi/JX.1295040#3,2021-09-10,2021,66.0594,24.72544,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7320000-E390000
+http://tun.fi/HR.3211/94428263-U,2021-09-11,2021,60.45353,25.02896,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/JX.1274785#3,2021-09-11,2021,60.343676,25.08562,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/JX.1274834#3,2021-09-11,2021,60.21992,25.135978,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1274952#6,2021-09-11,2021,66.314461,24.638536,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7350000-E390000
+http://tun.fi/HR.3211/94551306-U,2021-09-12,2021,60.45353,25.02825,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/KE.921/LGE.1001498/2771053,2021-09-12,2021,60.227834,23.861339,1.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/JX.1294641#69,2021-09-19 [16:23],2021,65.10114,25.517449,1.0,NEUTRAL,Photographed,"Notebook, general observations",Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7220000-E430000
+http://tun.fi/KE.921/LGE.929166/2572684,2021-09-21,2021,64.166536,27.892191,1.0,NEUTRAL,Observation,LajiGIS: Species mapping and surveys,Kainuu (Kn),ETRS-TM35FIN-10km-N7110000-E540000
+http://tun.fi/KE.921/LGE.1001644/2771841,2021-09-23,2021,60.244683,23.815368,1.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/KE.921/LGE.1001647/2771968,2021-09-24,2021,60.246752,23.820355,1.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/KE.921/LGE.1001647/2772062,2021-09-24,2021,60.24538,23.813348,1.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/KE.921/LGE.1001648/2772142,2021-09-28,2021,60.247179,23.816426,1.0,NEUTRAL,Seen,LajiGIS: Species mapping and surveys,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/HR.3211/123200995-U,2022-06-24,2022,62.32509,27.99124,12.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6910000-E550000
+http://tun.fi/HR.3211/127966356-U,2022-07-26,2022,62.99651,27.57353,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E520000
+http://tun.fi/HR.3211/128295981-U,2022-07-28,2022,61.78672,25.70375,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6850000-E430000
+http://tun.fi/JX.1426881#3,2022-07-30,2022,66.58327,25.69369,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E440000
+http://tun.fi/HR.3211/129657076-U,2022-08-06,2022,60.68348,24.89193,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E380000
+http://tun.fi/HR.3211/129816010-U,2022-08-07,2022,63.11921,21.64055,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7010000-E220000
+http://tun.fi/HR.3211/130365462-U,2022-08-11,2022,62.86389,22.08072,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6970000-E240000
+http://tun.fi/KE.176/62f4faedd5de0b49ae925a23#Unit1,2022-08-11,2022,67.295663,28.192643,1.0,NEUTRAL,Observation,Löydös Open Finnish Observation Database,Sompion Lappi (SoL),ETRS-TM35FIN-10km-N7460000-E550000
+http://tun.fi/JX.1432741#14,2022-08-15,2022,66.508125,25.654454,10.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/JX.1427444#249,2022-08-21,2022,64.462795,28.858143,1.0,NEUTRAL,Observation,"Notebook, general observations",Kainuu (Kn),ETRS-TM35FIN-10km-N7140000-E580000
+http://tun.fi/JX.1436761#3,2022-08-27,2022,61.000144,25.292518,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E400000
+http://tun.fi/HR.3211/132796836-U,2022-08-29,2022,62.60373,29.73905,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/JX.1439035#6,2022-08-30,2022,66.8706,25.8498,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7410000-E440000
+http://tun.fi/JX.1438544#30,2022-08-31 [13:44],2022,62.043385,26.144327,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6870000-E450000
+http://tun.fi/JX.1439117#24,2022-09-03 [9:52],2022,66.502346,25.797563,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/JX.1439783#3,2022-09-06,2022,61.003516,25.211222,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E400000
+http://tun.fi/JX.1440764#42,2022-09-10 [12:28],2022,62.58826,26.63525,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6930000-E480000
+http://tun.fi/HR.3211/134705609-U,2022-09-11,2022,60.36975,21.35645,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E180000
+http://tun.fi/JX.1441941#3,2022-09-12,2022,63.772534,26.064626,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7070000-E450000
+http://tun.fi/JX.1442083#3,2022-09-12,2022,60.593233,21.389081,10.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6730000-E190000
+http://tun.fi/JX.1448733#7,2022-09-16,2022,63.088271,21.680592,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/HR.3211/135344984-U,2022-09-17,2022,61.403,25.13242,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E400000
+http://tun.fi/HR.3211/135522918-U,2022-09-18,2022,60.43351,22.28705,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/135652989-U,2022-09-19,2022,60.55979,22.45437,23.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E250000
+http://tun.fi/JX.1443602#27,2022-09-19 [17:26-19:16],2022,60.208165,22.953144,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E270000
+http://tun.fi/JX.1443788#18,2022-09-20 [17:33-17:58],2022,60.448746,23.120342,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/136420566-U,2022-09-25,2022,62.04422,23.04162,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6880000-E290000
+http://tun.fi/JX.1444833#21,2022-09-25 [16:31-17:36],2022,60.451541,23.083952,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/136802133-U,2022-09-28,2022,63.56485,27.19712,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7040000-E500000
+http://tun.fi/HR.3211/138099766-U,2022-10-09,2022,62.62044,29.81337,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/HR.3211/150411873-U,2022-10-09,2022,60.16172,24.74971,27.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/JX.1449930#3,2022-10-16 [14:35],2022,60.646751,27.224672,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6720000-E510000
+http://tun.fi/JX.1450512#9,2022-10-23 [17:26-18:25],2022,60.379522,23.170481,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E280000
+http://tun.fi/JX.1501669#3,2022-10-24 [13:30],2022,60.656998,27.122239,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6720000-E500000
+http://tun.fi/JX.1608749#3,2023-07-10,2023,61.011399,25.652626,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E420000
+http://tun.fi/JX.1610637#23,2023-07-13 [18:38],2023,62.318121,26.347633,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E460000
+http://tun.fi/JX.1629153#3,2023-07-18,2023,61.507462,23.871677,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/JX.1613030#9,2023-07-20 [11:19],2023,61.468413,23.814528,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.1619671#3,2023-07-20 [13:05],2023,60.728732,27.3875,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6730000-E520000
+http://tun.fi/HR.3211/174898325-U,2023-07-25,2023,63.56199,27.55181,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7040000-E520000
+http://tun.fi/HR.3211/183092995-U,2023-07-27,2023,60.22445,24.92233,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/175503881-U,2023-07-29,2023,62.57927,29.87174,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/HR.3211/175511118-U,2023-07-29,2023,62.78916,28.52566,31.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6960000-E570000
+http://tun.fi/JX.1620398#3,2023-07-30,2023,60.904357,25.243076,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E400000
+http://tun.fi/HR.3211/175918081-U,2023-07-31,2023,63.05445,28.35598,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6990000-E560000
+http://tun.fi/JX.2431795#3,2023-07-31,2023,60.994869,24.694489,1.0,NEUTRAL,Photographed,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E370000
+http://tun.fi/HR.3211/186891748-U,2023-08-01,2023,63.37752,27.43341,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E520000
+http://tun.fi/HR.3211/176467883-U,2023-08-02,2023,61.49553,22.19981,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6820000-E240000
+http://tun.fi/JX.1622440#3,2023-08-03,2023,66.52803,25.574278,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E430000
+http://tun.fi/JX.1622363#12,2023-08-03 [19:24-20:09],2023,60.4738,23.088829,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E280000
+http://tun.fi/HR.3211/176583188-U,2023-08-04,2023,60.24368,25.21662,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/JX.1622633#48,2023-08-04 [18:29],2023,61.337894,23.511977,10.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E310000
+http://tun.fi/HR.3211/176750445-U,2023-08-05,2023,60.30439,25.20421,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/JX.1627202#46,2023-08-05,2023,63.038242,21.610269,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/JX.1622802#54,2023-08-05 [15:06-16:25],2023,60.431868,23.018466,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/176945648-U,2023-08-06,2023,65.026,25.62631,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E430000
+http://tun.fi/JX.1623180#20,2023-08-06,2023,61.659066,23.460997,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6840000-E310000
+http://tun.fi/HR.3211/177138661-U,2023-08-07,2023,60.93639,24.21327,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E340000
+http://tun.fi/HR.3211/177159785-U,2023-08-07,2023,61.7477,29.37644,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6840000-E620000
+http://tun.fi/JX.1623856#6,2023-08-07,2023,66.618004,26.177655,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E460000
+http://tun.fi/HR.3211/193716516-U,2023-08-08,2023,65.05832,25.47133,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/JX.1627785#47,2023-08-08,2023,63.037947,21.611103,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/HR.3211/177479258-U,2023-08-09,2023,60.24462,25.20278,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/HR.3211/177501736-U,2023-08-09,2023,62.22804,25.7398,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/JX.1624440#3,2023-08-09 [11:25],2023,61.092985,28.198156,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6770000-E560000
+http://tun.fi/HR.3211/177626140-U,2023-08-10,2023,60.37326,24.7444,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E370000
+http://tun.fi/JX.1624959#24,2023-08-10 [16:31-17:52],2023,60.334332,23.216414,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E290000
+http://tun.fi/JX.1624759#9,2023-08-10 [8:55],2023,62.043428,26.142186,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6870000-E450000
+http://tun.fi/JX.1628103#15,2023-08-11,2023,63.042672,21.596258,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/HR.3211/177989981-U,2023-08-12,2023,60.31178,25.17199,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/177999118-U,2023-08-12,2023,63.01133,22.32851,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6990000-E260000
+http://tun.fi/HR.3211/177999192-U,2023-08-12,2023,63.01132,22.32853,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6990000-E260000
+http://tun.fi/HR.3211/178131383-U,2023-08-13,2023,61.25018,26.08234,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6790000-E450000
+http://tun.fi/HR.3211/178141457-U,2023-08-13,2023,60.18112,24.99896,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1626251#174,2023-08-13 - 2023-08-17,2023,63.114006,29.777003,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7000000-E640000
+http://tun.fi/HR.3211/182152996-U,2023-08-14,2023,60.72272,24.7528,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E370000
+http://tun.fi/JX.1649250#3,2023-08-14,2023,62.44314,28.8066,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6920000-E590000
+http://tun.fi/HR.3211/178514291-U,2023-08-15,2023,61.64607,24.99718,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E390000
+http://tun.fi/HR.3211/178565432-U,2023-08-15,2023,60.21809,24.99062,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1626794#39,2023-08-15 [14:00-16:11],2023,60.428938,23.062149,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/178688298-U,2023-08-16,2023,59.96075,22.86081,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6650000-E260000
+http://tun.fi/JX.1688956#16,2023-08-16,2023,63.051975,21.610356,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/JX.1688956#22,2023-08-16,2023,63.052044,21.610472,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/JX.1688956#46,2023-08-16,2023,63.054458,21.619497,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/JX.1688956#9,2023-08-16,2023,63.051892,21.609986,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/HR.3211/189724306-U,2023-08-17,2023,60.73465,24.07361,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E340000
+http://tun.fi/JX.1627499#21,2023-08-17 [13:42-19:09],2023,60.354848,23.563236,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E310000
+http://tun.fi/HR.3211/179368175-U,2023-08-19,2023,60.15804,24.76452,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/JX.1628406#21,2023-08-20 [13:27],2023,61.472553,23.804857,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E320000
+http://tun.fi/JX.1628406#51,2023-08-20 [13:53],2023,61.468453,23.811403,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.1628406#117,2023-08-20 [14:42],2023,61.468642,23.815046,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.2388646#172,2023-08-21,2023,60.193295,25.097041,1.0,NEUTRAL,Observation,Species Observations from Helsinki Nature Surveys,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1628668#18,2023-08-21 [14:51-17:27],2023,60.252728,22.967983,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E270000
+http://tun.fi/HR.3211/193717350-U,2023-08-22,2023,65.01594,25.50567,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/JX.1628968#12,2023-08-22 [11:08-11:13],2023,60.516893,23.202933,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E290000
+http://tun.fi/HR.3211/179956322-U,2023-08-24,2023,60.21269,25.27249,40.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/HR.3211/179964440-U,2023-08-24,2023,60.21266,25.27283,36.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/HR.3211/179986788-U,2023-08-24,2023,60.21235,25.2715,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/HR.3211/179994976-U,2023-08-24,2023,60.21223,25.27086,18.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/JX.1629757#33,2023-08-24 [19:07],2023,60.22299,24.924968,10.0,NEUTRAL,Observation,"Notebook, general observations",Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/180235254-U,2023-08-26,2023,61.65226,26.06942,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E450000
+http://tun.fi/HR.3211/180249114-U,2023-08-26,2023,60.5484,21.49251,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E190000
+http://tun.fi/HR.3211/180266840-U,2023-08-26,2023,60.12024,23.3948,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E290000
+http://tun.fi/HR.3211/180270620-U,2023-08-26,2023,63.85155,23.1111,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7080000-E300000
+http://tun.fi/HR.3211/180327953-U,2023-08-26,2023,60.22647,24.91617,29.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1630359#18,2023-08-26 [15:01],2023,62.05457,23.942841,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6880000-E340000
+http://tun.fi/HR.3211/180415638-U,2023-08-27,2023,63.42678,22.24612,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7040000-E260000
+http://tun.fi/HR.3211/183631231-U,2023-08-27,2023,60.23618,22.25604,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E230000
+http://tun.fi/JX.1631594#3,2023-08-28,2023,66.5786,25.65922,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7380000-E440000
+http://tun.fi/HR.3211/180740749-U,2023-08-29,2023,61.12421,21.54362,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6780000-E200000
+http://tun.fi/HR.3211/180790589-U,2023-08-29,2023,60.19611,24.91683,25.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1641701#6,2023-08-30,2023,63.08392,21.672952,10.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E230000
+http://tun.fi/HR.3211/181057632-U,2023-08-31,2023,60.14875,22.00154,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E220000
+http://tun.fi/HR.3211/181183010-U,2023-09-01,2023,61.25583,24.57145,21.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6790000-E360000
+http://tun.fi/HR.3211/181218024-U,2023-09-01,2023,62.75622,23.03538,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6960000-E290000
+http://tun.fi/HR.3211/181323494-U,2023-09-01,2023,60.24031,25.21575,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/HR.3211/193731238-U,2023-09-01,2023,65.01921,25.65449,42.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E430000
+http://tun.fi/HR.3211/181319760-U,2023-09-02,2023,60.77811,23.83999,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E320000
+http://tun.fi/HR.3211/181381394-U,2023-09-02,2023,60.30333,21.96947,27.0,NEUTRAL,Observation,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E220000
+http://tun.fi/HR.3211/181525874-U,2023-09-03,2023,64.94303,26.81067,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7200000-E490000
+http://tun.fi/HR.3211/181534770-U,2023-09-03,2023,62.87786,27.61854,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/HR.3211/181538073-U,2023-09-03,2023,60.27908,23.82697,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/HR.3211/190068274-U,2023-09-03,2023,60.23654,24.87112,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.1645163#3,2023-09-03,2023,66.487744,25.765267,1.0,NEUTRAL,Preserved specimen,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/HR.3211/181700429-U,2023-09-04,2023,63.35977,27.40327,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E520000
+http://tun.fi/HR.3211/181707620-U,2023-09-04,2023,63.36106,27.40254,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E520000
+http://tun.fi/HR.3211/181727351-U,2023-09-04,2023,60.21357,23.77091,22.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E320000
+http://tun.fi/HR.3211/183694322-U,2023-09-04,2023,60.23753,24.82601,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/181876843-U,2023-09-05,2023,60.296,24.56265,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/181889829-U,2023-09-05,2023,60.40407,22.23899,47.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E230000
+http://tun.fi/JX.1634305#5,2023-09-05,2023,61.770656,23.06152,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6850000-E290000
+http://tun.fi/JX.1642315#7,2023-09-05,2023,63.083248,21.627447,10.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N7000000-E220000
+http://tun.fi/JX.1634309#16,2023-09-05 [12:17-12:17],2023,61.77124,23.060305,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6850000-E290000
+http://tun.fi/HR.3211/182028590-U,2023-09-06,2023,61.85651,24.83631,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6860000-E380000
+http://tun.fi/HR.3211/182067299-U,2023-09-06,2023,60.24569,25.01468,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/182068084-U,2023-09-06,2023,60.40138,22.32019,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/182431094-U,2023-09-07,2023,60.44686,23.2191,35.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E290000
+http://tun.fi/HR.3211/215050730-U,2023-09-07,2023,60.30521,24.39797,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/HR.3211/182303956-U,2023-09-08,2023,60.98576,24.51365,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E360000
+http://tun.fi/HR.3211/382639792-U,2023-09-08,2023,60.17101,25.04109,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1636979#50,2023-09-08,2023,62.200425,30.288265,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6900000-E670000
+http://tun.fi/JX.1635083#3,2023-09-08 [12:28-13:08],2023,61.636017,23.193709,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6830000-E290000
+http://tun.fi/JX.1635099#3,2023-09-08 [15:14-15:15],2023,61.406005,22.989317,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Satakunta (St),ETRS-TM35FIN-10km-N6810000-E280000
+http://tun.fi/HR.3211/182439390-U,2023-09-09,2023,60.29299,25.14699,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/182439485-U,2023-09-09,2023,60.29286,25.14716,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/182455323-U,2023-09-09,2023,60.03919,22.77465,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E260000
+http://tun.fi/HR.3211/182789268-U,2023-09-09,2023,60.37026,23.00096,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E270000
+http://tun.fi/HR.3211/186809167-U,2023-09-09,2023,60.86301,23.43743,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E300000
+http://tun.fi/JX.1635274#105,2023-09-09 [10:00],2023,61.464082,23.811781,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.1635274#144,2023-09-09 [10:55],2023,61.466211,23.81125,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.1635396#96,2023-09-09 [17:36-19:12],2023,60.194828,25.012357,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/182657292-U,2023-09-10,2023,61.35087,23.80312,30.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E320000
+http://tun.fi/HR.3211/182918810-U,2023-09-12,2023,62.08196,21.32295,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6890000-E200000
+http://tun.fi/HR.3211/183100109-U,2023-09-13,2023,60.22443,25.04505,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/JX.1668628#11,2023-09-13,2023,60.969972,25.624732,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E420000
+http://tun.fi/JX.2388650#132,2023-09-13,2023,60.192733,25.097416,1.0,NEUTRAL,Observation,Species Observations from Helsinki Nature Surveys,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/183226528-U,2023-09-14,2023,60.89462,24.88701,21.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E380000
+http://tun.fi/HR.3211/183482917-U,2023-09-16,2023,60.19171,24.92205,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/183626600-U,2023-09-16,2023,60.10938,24.7159,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E370000
+http://tun.fi/HR.3211/183628942-U,2023-09-17,2023,61.12165,28.4512,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6770000-E570000
+http://tun.fi/HR.3211/183832079-U,2023-09-18,2023,60.10201,24.41889,23.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E350000
+http://tun.fi/HR.3211/198196640-U,2023-09-19,2023,61.34706,25.30968,31.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6800000-E400000
+http://tun.fi/HR.3211/184098906-U,2023-09-20,2023,62.24012,25.89376,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E440000
+http://tun.fi/HR.3211/184281383-U,2023-09-21,2023,60.24094,25.14554,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/184355185-U,2023-09-22,2023,60.53291,24.18096,19.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E340000
+http://tun.fi/JX.1640735#42,2023-09-26,2023,60.677968,24.422468,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6720000-E350000
+http://tun.fi/JX.1647763#33,2023-09-26 [17:52] - 2023-10-16 [12:58],2023,60.191713,25.0008,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/186845138-U,2023-10-09,2023,60.43679,22.2492,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E230000
+http://tun.fi/JX.2403646#5,2024-07-15,2024,60.107109,22.929902,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E270000
+http://tun.fi/JX.1749805#56,2024-07-21,2024,60.20022,24.822834,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/230932524-U,2024-07-22,2024,62.22108,25.84259,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/HR.3211/230968912-U,2024-07-22,2024,63.29941,27.38018,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7010000-E510000
+http://tun.fi/HR.3211/230969147-U,2024-07-22,2024,63.29936,27.38133,50.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7010000-E510000
+http://tun.fi/HR.3211/232451736-U,2024-07-29,2024,60.25484,24.44362,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/JX.1755566#6,2024-08-04 [19:38-20:34],2024,60.333922,23.215962,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E290000
+http://tun.fi/HR.3211/234132832-U,2024-08-06,2024,61.59788,27.12793,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6820000-E500000
+http://tun.fi/HR.3211/234336621-U,2024-08-07,2024,61.61235,27.12777,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6830000-E500000
+http://tun.fi/JX.1757464#9,2024-08-10 [8:42-9:57],2024,61.459012,25.761002,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E430000
+http://tun.fi/HR.3211/235067320-U,2024-08-11,2024,60.24311,25.21757,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/JX.1758340#3,2024-08-12,2024,61.785615,29.30877,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6850000-E620000
+http://tun.fi/JX.1759821#60,2024-08-12,2024,62.970683,21.504697,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6990000-E220000
+http://tun.fi/JX.1777495#5,2024-08-12,2024,60.699692,25.034037,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E390000
+http://tun.fi/HR.3211/235688020-U,2024-08-14,2024,60.92811,23.8208,48.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E320000
+http://tun.fi/HR.3211/235718191-U,2024-08-14,2024,60.06488,24.28711,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E340000
+http://tun.fi/HR.3211/235897888-U,2024-08-15,2024,60.72995,23.57014,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6730000-E310000
+http://tun.fi/HR.3211/235933138-U,2024-08-15,2024,61.50766,23.80544,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/236249447-U,2024-08-17,2024,60.64543,25.07486,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6720000-E390000
+http://tun.fi/HR.3211/236254378-U,2024-08-17,2024,60.42169,25.07347,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/HR.3211/236299338-U,2024-08-17,2024,61.2892,25.58741,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6790000-E420000
+http://tun.fi/JX.1759721#3,2024-08-17,2024,60.354361,25.032381,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/JX.1786136#3,2024-08-17,2024,62.318565,26.354444,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E460000
+http://tun.fi/HR.3211/236457348-U,2024-08-18,2024,61.64988,25.00511,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E390000
+http://tun.fi/HR.3211/236460176-U,2024-08-18,2024,61.05872,21.38308,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6780000-E190000
+http://tun.fi/HR.3211/236581400-U,2024-08-18,2024,60.70178,25.2066,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6730000-E400000
+http://tun.fi/JX.1760014#3,2024-08-18,2024,62.255271,25.707033,1.0,NEUTRAL,Observation,"Notebook, general observations",Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/JX.2434924#3,2024-08-18,2024,60.305561,25.20518,1.0,NEUTRAL,Observation,"Notebook, general observations",Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/JX.1761180#9,2024-08-18 [14:41-14:47],2024,61.497026,25.666124,1.0,NEUTRAL,Observation,Noteworthy macrofungi - complete lists,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E420000
+http://tun.fi/HR.3211/236682327-U,2024-08-19,2024,60.70695,26.6436,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6730000-E480000
+http://tun.fi/HR.3211/236700268-U,2024-08-19,2024,60.4784,21.94568,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E220000
+http://tun.fi/HR.3211/236870254-U,2024-08-20,2024,62.38292,27.66324,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6910000-E530000
+http://tun.fi/JX.1760609#6,2024-08-20 [14:31-15:57],2024,60.383475,23.166405,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/237062741-U,2024-08-21,2024,60.50458,22.45018,49.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E250000
+http://tun.fi/HR.3211/237073788-U,2024-08-21,2024,60.9239,21.49672,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6760000-E200000
+http://tun.fi/HR.3211/237082219-U,2024-08-21,2024,60.8468,23.04813,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E280000
+http://tun.fi/HR.3211/237082768-U,2024-08-21,2024,60.84714,23.04867,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6750000-E280000
+http://tun.fi/HR.3211/237105471-U,2024-08-21,2024,60.19338,24.59235,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E360000
+http://tun.fi/HR.3211/237116285-U,2024-08-21,2024,60.4802,25.10961,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/JX.1760977#3,2024-08-21 [15:24-17:10],2024,60.210377,25.024037,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/237309031-U,2024-08-22,2024,60.47623,22.38715,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/JX.1761453#2259,2024-08-24,2024,61.125392,28.676253,1.0,NEUTRAL,"Handled (catched, not preserved)","Notebook, general observations",Etelä-Savo (ES),ETRS-TM35FIN-10km-N6770000-E590000
+http://tun.fi/JX.1761869#18,2024-08-24 [15:25-19:07],2024,60.264332,22.795615,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E260000
+http://tun.fi/JX.1762059#42,2024-08-25 [10:23-11:39],2024,62.480789,21.636938,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6930000-E220000
+http://tun.fi/JX.1762524#107,2024-08-26,2024,60.597005,24.787715,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6710000-E370000
+http://tun.fi/HR.3211/238596008-U,2024-08-29,2024,60.29721,24.61706,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/239562702-U,2024-09-01,2024,61.45389,27.40605,21.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E520000
+http://tun.fi/HR.3211/239362161-U,2024-09-02,2024,65.91053,24.75498,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7310000-E390000
+http://tun.fi/HR.3211/239405304-U,2024-09-02,2024,62.65285,29.22233,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E610000
+http://tun.fi/HR.3211/254538263-U,2024-09-02,2024,65.01697,25.51254,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/239788381-U,2024-09-04,2024,65.06092,25.46968,30.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/239803759-U,2024-09-04,2024,65.06199,25.46499,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/JX.1764949#52,2024-09-04,2024,61.809893,29.305127,1.0,NEUTRAL,Preserved specimen,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6850000-E620000
+http://tun.fi/HR.3211/239931853-U,2024-09-05,2024,63.17786,27.62817,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7000000-E530000
+http://tun.fi/HR.3211/239967670-U,2024-09-05,2024,65.0564,25.47902,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/240908289-U,2024-09-05,2024,63.21027,27.51903,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7000000-E520000
+http://tun.fi/JX.1765521#3,2024-09-05,2024,66.48091,25.36307,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E420000
+http://tun.fi/JX.1765454#3,2024-09-05 [17:59-19:59],2024,61.799596,29.332177,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6850000-E620000
+http://tun.fi/HR.3211/240128728-U,2024-09-06,2024,60.13413,24.3407,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E350000
+http://tun.fi/HR.3211/240282144-U,2024-09-07,2024,66.49869,25.74422,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/HR.3211/240290178-U,2024-09-07,2024,60.08054,24.2953,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E340000
+http://tun.fi/HR.3211/240324737-U,2024-09-07,2024,66.13444,25.01337,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7330000-E410000
+http://tun.fi/HR.3211/240504855-U,2024-09-08,2024,64.83328,25.68814,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7190000-E430000
+http://tun.fi/HR.3211/257131270-U,2024-09-08,2024,66.49899,25.72099,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/JX.1768298#3,2024-09-08,2024,62.091103,29.874395,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6880000-E650000
+http://tun.fi/HR.3211/240734161-U,2024-09-09,2024,60.26906,25.19133,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/241242726-U,2024-09-12,2024,60.29285,24.56193,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/241284864-U,2024-09-12,2024,65.00354,25.46002,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7200000-E420000
+http://tun.fi/HR.3211/241433808-U,2024-09-13,2024,61.20214,28.73641,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E590000
+http://tun.fi/HR.3211/241625271-U,2024-09-14,2024,63.5649,27.19747,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7040000-E500000
+http://tun.fi/JX.1768486#3,2024-09-14,2024,60.393553,25.057653,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E390000
+http://tun.fi/HR.3211/241833811-U,2024-09-15,2024,60.29252,25.14627,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/JX.1768805#111,2024-09-15 [13:51-15:53],2024,61.465922,23.811964,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.1769133#45,2024-09-16 [16:27-19:09],2024,60.094944,22.870806,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E270000
+http://tun.fi/HR.3211/242265133-U,2024-09-17,2024,63.36101,27.40273,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E520000
+http://tun.fi/HR.3211/242312133-U,2024-09-17,2024,61.37791,22.93749,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6810000-E280000
+http://tun.fi/HR.3211/242504924-U,2024-09-18,2024,60.3525,22.22156,21.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E230000
+http://tun.fi/HR.3211/242632222-U,2024-09-19,2024,60.2337,25.13901,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/242715108-U,2024-09-19,2024,60.23781,25.14281,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/242716826-U,2024-09-19,2024,60.42108,22.33307,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/246301678-U,2024-09-19,2024,60.54222,25.11114,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6710000-E390000
+http://tun.fi/HR.3211/242813566-U,2024-09-20,2024,60.15303,24.36648,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E350000
+http://tun.fi/HR.3211/242826785-U,2024-09-20,2024,60.44437,22.38741,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/242874155-U,2024-09-20,2024,60.58333,22.42616,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E240000
+http://tun.fi/HR.3211/244642880-U,2024-09-20,2024,61.64573,24.99617,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E390000
+http://tun.fi/HR.3211/243051492-U,2024-09-21,2024,60.31051,24.22761,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E340000
+http://tun.fi/HR.3211/243051608-U,2024-09-21,2024,60.31042,24.2278,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E340000
+http://tun.fi/HR.3211/243051767-U,2024-09-21,2024,60.31038,24.22792,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E340000
+http://tun.fi/HR.3211/243051837-U,2024-09-21,2024,60.31047,24.22796,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E340000
+http://tun.fi/HR.3211/243071482-U,2024-09-21,2024,61.12883,21.49369,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6780000-E200000
+http://tun.fi/JX.1771857#12,2024-09-24,2024,60.269847,24.64515,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/244114998-U,2024-09-26,2024,60.94646,26.81359,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6750000-E480000
+http://tun.fi/HR.3211/244267075-U,2024-09-27,2024,60.47289,22.1726,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/HR.3211/244278163-U,2024-09-27,2024,60.18736,25.14509,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/250768491-U,2024-09-29,2024,60.14965,24.74959,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/244888748-U,2024-09-30,2024,60.4855,25.12584,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/HR.3211/254235712-U,2024-09-30,2024,64.99217,24.66346,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7200000-E380000
+http://tun.fi/HR.3211/245027066-U,2024-10-01,2024,60.25496,23.75093,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E320000
+http://tun.fi/HR.3211/245041215-U,2024-10-01,2024,60.14612,24.88441,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E380000
+http://tun.fi/HR.3211/245081780-U,2024-10-01,2024,60.48014,25.1164,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E390000
+http://tun.fi/HR.3211/258485703-U,2024-10-02,2024,60.48404,24.42562,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E350000
+http://tun.fi/JX.1773397#3,2024-10-05,2024,60.996107,25.510523,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E410000
+http://tun.fi/HR.3211/246929459-U,2024-10-12,2024,59.81355,22.8978,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6630000-E270000
+http://tun.fi/HR.3211/247154270-U,2024-10-13,2024,60.30269,25.20209,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E400000
+http://tun.fi/JX.1775373#36,2024-10-13 [15:09-17:23],2024,61.472342,23.806064,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E320000
+http://tun.fi/HR.3211/249049226-U,2024-10-25,2024,60.10733,24.487,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E360000
+http://tun.fi/JX.1778491#7,2024-10-26,2024,60.98826,25.653564,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E420000
+http://tun.fi/JX.1778493#3,2024-10-27,2024,60.460447,25.188062,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E400000
+http://tun.fi/HR.3211/291407599-U,2025-06-21,2025,59.82445,22.98276,16.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6630000-E270000
+http://tun.fi/JX.2299986#3,2025-06-27,2025,61.175548,23.895031,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E330000
+http://tun.fi/JX.2304501#24,2025-07-03,2025,60.254647,24.60232,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/JX.2305266#63,2025-07-04 - 2025-07-12,2025,60.253384,24.787594,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/JX.2311134#10,2025-07-14 [12:57-13:34],2025,60.325176,23.53335,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E300000
+http://tun.fi/HR.3211/299488626-U,2025-07-20,2025,60.67666,26.01941,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6720000-E440000
+http://tun.fi/HR.3211/303970145-U,2025-08-05,2025,60.16976,25.43118,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E410000
+http://tun.fi/JX.2326896#3,2025-08-11 [12:01],2025,69.649159,27.098189,1.0,NEUTRAL,Photographed,"Notebook, general observations",Inarin Lappi (InL),ETRS-TM35FIN-10km-N7720000-E500000
+http://tun.fi/HR.3211/306277325-U,2025-08-14,2025,60.2175,24.9181,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.2328150#21,2025-08-14 [15:13-17:45],2025,60.431799,23.019753,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/JX.2328808#42,2025-08-16 [10:53],2025,61.464384,23.812087,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.2328760#12,2025-08-16 [6:43-8:59],2025,60.504206,22.278098,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/JX.2329319#9,2025-08-17,2025,61.020208,25.518365,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E410000
+http://tun.fi/HR.3211/307274392-U,2025-08-18,2025,60.99216,24.53467,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E360000
+http://tun.fi/HR.3211/307694409-U,2025-08-20,2025,61.22678,26.02114,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E440000
+http://tun.fi/HR.3211/307801865-U,2025-08-20,2025,62.64575,26.82963,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6940000-E490000
+http://tun.fi/HR.3211/308421757-U,2025-08-23,2025,61.03893,23.98198,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E330000
+http://tun.fi/JX.2331268#18,2025-08-23 [9:01-11:08],2025,61.468587,23.814413,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/308770573-U,2025-08-24,2025,60.31188,19.93944,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Ahvenanmaa (A),ETRS-TM35FIN-10km-N6700000-E110000
+http://tun.fi/HR.3211/333570427-U,2025-08-24,2025,60.23394,24.8787,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.2423727#3,2025-08-24,2025,60.499085,24.997319,1.0,NEUTRAL,Observation,"Notebook, general observations",Uusimaa (U),ETRS-TM35FIN-10km-N6700000-E380000
+http://tun.fi/KE.176/68b9c85bd5de76a3ffda2dcb#Unit1,2025-08-24,2025,60.549723,21.30792,1.0,NEUTRAL,Observation,Löydös Open Finnish Observation Database,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6720000-E180000
+http://tun.fi/JX.2331897#12,2025-08-24 [7:28-18:13],2025,60.404097,22.284527,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/309233583-U,2025-08-26,2025,67.60787,28.60736,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Sompion Lappi (SoL),ETRS-TM35FIN-10km-N7500000-E560000
+http://tun.fi/JX.2332493#27,2025-08-26,2025,61.042554,25.473924,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E410000
+http://tun.fi/JX.2332663#14,2025-08-26,2025,60.111293,23.547046,1.0,NEUTRAL,Observation,"Notebook, general observations",Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6660000-E300000
+http://tun.fi/HR.3211/309656030-U,2025-08-28,2025,61.20556,28.72528,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E590000
+http://tun.fi/HR.3211/309699402-U,2025-08-28,2025,61.20895,28.7466,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E590000
+http://tun.fi/HR.3211/309718080-U,2025-08-28,2025,60.28713,24.44967,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/JX.2338383#15,2025-08-29 [12:12],2025,62.585377,26.640304,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6930000-E480000
+http://tun.fi/HR.3211/310154532-U,2025-08-30,2025,60.15683,21.30004,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E180000
+http://tun.fi/HR.3211/310157661-U,2025-08-30,2025,62.85087,23.84341,33.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N6970000-E330000
+http://tun.fi/HR.3211/310234889-U,2025-08-30,2025,61.46799,25.06362,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E390000
+http://tun.fi/HR.3211/318246121-U,2025-08-30,2025,60.21472,24.69891,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/318246206-U,2025-08-30,2025,60.21232,24.69134,17.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/310461969-U,2025-08-31,2025,61.87777,28.86162,27.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6860000-E590000
+http://tun.fi/HR.3211/310471524-U,2025-08-31,2025,61.87704,28.86788,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6860000-E590000
+http://tun.fi/HR.3211/310475721-U,2025-08-31,2025,61.87781,28.86236,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6860000-E590000
+http://tun.fi/HR.3211/310537178-U,2025-08-31,2025,60.42294,22.26898,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E230000
+http://tun.fi/HR.3211/310553121-U,2025-08-31,2025,60.93317,24.14428,43.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E340000
+http://tun.fi/HR.3211/380771878-U,2025-08-31,2025,60.36752,24.46288,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6690000-E360000
+http://tun.fi/HR.3211/310721977-U,2025-09-01,2025,59.95598,21.77714,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6650000-E200000
+http://tun.fi/HR.3211/310731307-U,2025-09-01,2025,60.2905,24.76212,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/HR.3211/310744797-U,2025-09-01,2025,62.04221,29.10372,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6880000-E610000
+http://tun.fi/HR.3211/310810679-U,2025-09-01,2025,62.72775,29.62344,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6950000-E630000
+http://tun.fi/JX.2340835#10,2025-09-01,2025,60.448709,23.120882,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/310957556-U,2025-09-02,2025,60.46846,22.33016,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/HR.3211/311201039-U,2025-09-03,2025,61.64251,27.3358,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6830000-E510000
+http://tun.fi/HR.3211/311216674-U,2025-09-03,2025,65.06354,25.46882,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/311264886-U,2025-09-03,2025,60.47067,22.33534,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/HR.3211/311269313-U,2025-09-03,2025,62.76407,27.02737,14.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6950000-E500000
+http://tun.fi/HR.3211/311977392-U,2025-09-03,2025,62.25375,25.75547,36.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E430000
+http://tun.fi/HR.3211/312410289-U,2025-09-03,2025,65.06342,25.46891,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/311714698-U,2025-09-05,2025,60.17582,25.02969,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/311859591-U,2025-09-06,2025,62.58499,29.82242,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/HR.3211/311867543-U,2025-09-06,2025,62.61001,29.81357,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/HR.3211/311872899-U,2025-09-06,2025,60.47782,22.35505,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/HR.3211/311900550-U,2025-09-06,2025,60.21582,24.85607,15.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/311941015-U,2025-09-06,2025,60.22005,24.88233,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/390053138-U,2025-09-06,2025,60.48555,22.38505,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/JX.2342218#90,2025-09-06 [10:48],2025,61.46789,23.816201,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/312143296-U,2025-09-07,2025,62.58493,29.8172,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E640000
+http://tun.fi/HR.3211/312176387-U,2025-09-07,2025,61.46609,23.73924,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E320000
+http://tun.fi/HR.3211/312396258-U,2025-09-07,2025,65.02072,25.45004,31.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/JX.2344553#3,2025-09-09,2025,64.715615,24.534424,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7170000-E380000
+http://tun.fi/HR.3211/312912758-U,2025-09-10,2025,60.25919,24.61869,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/313321196-U,2025-09-12,2025,61.87065,28.86343,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6860000-E590000
+http://tun.fi/HR.3211/313324115-U,2025-09-12,2025,61.8728,28.86389,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6860000-E590000
+http://tun.fi/JX.2345769#81,2025-09-12 [10:07-15:03],2025,61.108013,24.956539,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E380000
+http://tun.fi/HR.3211/313492458-U,2025-09-13,2025,60.86718,24.3702,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6750000-E350000
+http://tun.fi/HR.3211/313519883-U,2025-09-13,2025,62.92716,27.42451,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E520000
+http://tun.fi/HR.3211/313525113-U,2025-09-13,2025,59.9758,23.92492,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6650000-E320000
+http://tun.fi/HR.3211/313536389-U,2025-09-13,2025,60.21561,24.99282,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/313570683-U,2025-09-13,2025,60.21103,24.90669,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/JX.2345993#96,2025-09-13 [11:38],2025,61.46813,23.815958,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.2345962#60,2025-09-13 [9:34-10:29],2025,60.243116,25.20407,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/JX.2467910#60,2025-09-13 [9:34-10:29],2025,60.243116,25.20407,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E400000
+http://tun.fi/HR.3211/313819949-U,2025-09-14,2025,60.31521,25.14433,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/313822495-U,2025-09-14,2025,60.31453,25.1441,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/314302775-U,2025-09-16,2025,62.8748,27.59865,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/HR.3211/314368048-U,2025-09-16,2025,65.02034,24.6395,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E380000
+http://tun.fi/HR.3211/314368949-U,2025-09-16,2025,65.06771,25.45989,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/314376003-U,2025-09-16,2025,65.02015,24.63924,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E380000
+http://tun.fi/HR.3211/314753938-U,2025-09-18,2025,62.98746,27.73196,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E530000
+http://tun.fi/HR.3211/314758094-U,2025-09-18,2025,62.98405,27.72361,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E530000
+http://tun.fi/HR.3211/314964649-U,2025-09-19,2025,62.89842,27.819,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E540000
+http://tun.fi/HR.3211/314986835-U,2025-09-19,2025,62.63733,27.04726,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6940000-E500000
+http://tun.fi/HR.3211/315210214-U,2025-09-20,2025,62.88288,27.88514,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E540000
+http://tun.fi/HR.3211/315210887-U,2025-09-20,2025,60.45688,23.62825,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E310000
+http://tun.fi/HR.3211/315211046-U,2025-09-20,2025,60.45685,23.62837,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E310000
+http://tun.fi/HR.3211/315504131-U,2025-09-21,2025,60.13829,25.00058,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E380000
+http://tun.fi/HR.3211/315556811-U,2025-09-21,2025,63.01645,27.42926,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E520000
+http://tun.fi/HR.3211/315557005-U,2025-09-21,2025,63.01644,27.42927,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E520000
+http://tun.fi/JX.2355106#3,2025-09-22 [11:48] - 2025-10-11 [13:27],2025,61.468664,23.814591,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/JX.2354872#3,2025-09-22 [14:50],2025,60.652562,27.223862,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6720000-E510000
+http://tun.fi/HR.3211/316278451-U,2025-09-24,2025,63.01507,27.44487,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6980000-E520000
+http://tun.fi/HR.3211/316810609-U,2025-09-26,2025,61.45324,27.40432,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6810000-E520000
+http://tun.fi/HR.3211/316967671-U,2025-09-27,2025,60.62528,21.70071,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6730000-E210000
+http://tun.fi/HR.3211/316976267-U,2025-09-27,2025,59.84475,23.24429,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6640000-E280000
+http://tun.fi/HR.3211/342019190-U,2025-09-27,2025,59.84482,23.24423,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6640000-E280000
+http://tun.fi/HR.3211/317258622-U,2025-09-28,2025,63.25136,24.15718,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7010000-E350000
+http://tun.fi/HR.3211/317482735-U,2025-09-28,2025,60.28681,24.49826,29.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E360000
+http://tun.fi/HR.3211/317692406-U,2025-09-29,2025,63.01427,28.57053,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6980000-E570000
+http://tun.fi/JX.2351427#69,2025-09-29 [9:51-13:55],2025,60.518933,22.358965,1.0,NEUTRAL,Observation,"Notebook, general observations",Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/HR.3211/317750094-U,2025-09-30,2025,62.89508,27.60434,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/JX.2351759#9,2025-09-30,2025,59.906439,23.498849,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6640000-E300000
+http://tun.fi/HR.3211/318151964-U,2025-10-02,2025,60.0233,24.46962,32.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6650000-E350000
+http://tun.fi/HR.3211/388942906-U,2025-10-03,2025,60.8591,25.59357,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6740000-E420000
+http://tun.fi/HR.3211/318893261-U,2025-10-05,2025,62.16454,27.80188,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6890000-E540000
+http://tun.fi/HR.3211/319351459-U,2025-10-07,2025,60.14673,24.87763,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6660000-E380000
+http://tun.fi/HR.3211/319953053-U,2025-10-10,2025,62.90047,27.59717,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E530000
+http://tun.fi/HR.3211/320107622-U,2025-10-11,2025,60.43752,22.51631,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E250000
+http://tun.fi/JX.2355900#3,2025-10-12,2025,63.772452,26.064434,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N7070000-E450000
+http://tun.fi/HR.3211/322696893-U,2025-10-16,2025,65.01202,25.5024,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/377972866-U,2026-07-04,2026,62.61535,29.50599,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6940000-E620000
+http://tun.fi/HR.3211/382905189-U,2026-07-15,2026,61.17752,26.86099,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E490000
+http://tun.fi/HR.3211/382588165-U,2026-07-18,2026,60.4592,26.93454,48.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Karjala (EK),ETRS-TM35FIN-10km-N6700000-E490000
+http://tun.fi/HR.3211/382947925-U,2026-07-19,2026,62.06575,23.35075,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Satakunta (St),ETRS-TM35FIN-10km-N6880000-E300000
+http://tun.fi/JX.2485685#12,2026-07-20 - 2026-07-27,2026,60.210959,24.6801,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/383583618-U,2026-07-21,2026,62.1465,25.77517,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/HR.3211/383704017-U,2026-07-21,2026,61.71211,24.96389,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6840000-E390000
+http://tun.fi/HR.3211/383869285-U,2026-07-22,2026,60.44737,22.42364,25.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/383949522-U,2026-07-22,2026,60.87806,26.74229,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6740000-E480000
+http://tun.fi/HR.3211/384284098-U,2026-07-23,2026,60.35456,25.48838,11.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E410000
+http://tun.fi/HR.3211/384825031-U,2026-07-25,2026,60.4501,22.54606,23.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E250000
+http://tun.fi/HR.3211/384872149-U,2026-07-25,2026,60.87801,26.74237,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6740000-E480000
+http://tun.fi/JX.2488359#7,2026-07-25,2026,60.509,22.118,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E230000
+http://tun.fi/HR.3211/385875245-U,2026-07-27,2026,61.65852,27.25706,12.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6830000-E510000
+http://tun.fi/HR.3211/385976230-U,2026-07-28,2026,60.43528,22.36977,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/386233711-U,2026-07-29,2026,61.44279,23.83214,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E330000
+http://tun.fi/HR.3211/386241152-U,2026-07-29,2026,61.51775,23.95332,24.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/386250968-U,2026-07-29,2026,61.5265,23.95238,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/386251782-U,2026-07-29,2026,61.52152,23.94368,43.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/387946476-U,2026-07-30,2026,62.85067,23.84474,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N6970000-E330000
+http://tun.fi/HR.3211/386809698-U,2026-07-31,2026,65.05646,25.48032,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/387151612-U,2026-08-01,2026,60.1451,23.54006,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E300000
+http://tun.fi/JX.2491077#6,2026-08-01 [17:05-17:19],2026,60.45783,23.063638,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E280000
+http://tun.fi/HR.3211/387503036-U,2026-08-02,2026,62.22357,25.76838,17.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E430000
+http://tun.fi/HR.3211/394680980-U,2026-08-02,2026,62.16255,26.14281,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6890000-E450000
+http://tun.fi/HR.3211/388087737-U,2026-08-04,2026,63.5634,27.1911,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7040000-E500000
+http://tun.fi/HR.3211/388152365-U,2026-08-04,2026,61.2564,24.64429,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6790000-E370000
+http://tun.fi/HR.3211/388489942-U,2026-08-05,2026,60.43179,22.37128,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/388694893-U,2026-08-06,2026,65.06471,25.46819,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/388949438-U,2026-08-07,2026,60.46964,22.33048,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6710000-E240000
+http://tun.fi/HR.3211/389102450-U,2026-08-07,2026,64.77252,25.40438,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7180000-E420000
+http://tun.fi/JX.2500336#3,2026-08-07,2026,64.804981,25.966833,1.0,NEUTRAL,Observation,"Notebook, general observations",Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7180000-E450000
+http://tun.fi/HR.3211/389577702-U,2026-08-08,2026,60.26022,24.84295,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E380000
+http://tun.fi/HR.3211/389578139-U,2026-08-09,2026,65.06511,25.46256,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/389614865-U,2026-08-09,2026,60.31322,24.45124,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6680000-E350000
+http://tun.fi/HR.3211/389624636-U,2026-08-09,2026,62.26707,25.8647,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E440000
+http://tun.fi/HR.3211/389625327-U,2026-08-09,2026,62.2666,25.8651,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E440000
+http://tun.fi/HR.3211/389626065-U,2026-08-09,2026,62.26633,25.86524,14.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E440000
+http://tun.fi/HR.3211/389634640-U,2026-08-09,2026,62.2615,25.86529,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6900000-E440000
+http://tun.fi/JX.2500340#3,2026-08-09,2026,64.756258,25.886907,1.0,NEUTRAL,Observation,"Notebook, general observations",Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7180000-E440000
+http://tun.fi/JX.2496587#3,2026-08-10,2026,61.022979,23.516204,1.0,NEUTRAL,Observation,"Notebook, general observations",Etelä-Häme (EH),ETRS-TM35FIN-10km-N6770000-E310000
+http://tun.fi/HR.3211/390232218-U,2026-08-11,2026,65.05656,25.48036,26.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/390303313-U,2026-08-11,2026,60.77386,23.34086,40.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6740000-E300000
+http://tun.fi/HR.3211/390567489-U,2026-08-12,2026,62.90794,27.56245,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6970000-E520000
+http://tun.fi/HR.3211/390864399-U,2026-08-13,2026,61.49227,23.79665,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E320000
+http://tun.fi/HR.3211/390870048-U,2026-08-13,2026,63.5386,27.467,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7040000-E520000
+http://tun.fi/JX.2497748#147,2026-08-14,2026,60.402903,25.747026,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E430000
+http://tun.fi/HR.3211/391677562-U,2026-08-16,2026,61.64698,25.00304,26.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E390000
+http://tun.fi/HR.3211/392404853-U,2026-08-16,2026,64.14118,28.25565,44.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Kainuu (Kn),ETRS-TM35FIN-10km-N7110000-E560000
+http://tun.fi/JX.2499040#5,2026-08-16,2026,66.500089,25.746352,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Perä-Pohjanmaa (PeP),ETRS-TM35FIN-10km-N7370000-E440000
+http://tun.fi/HR.3211/392128853-U,2026-08-17,2026,62.85093,23.84318,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Keski-Pohjanmaa (KP),ETRS-TM35FIN-10km-N6970000-E330000
+http://tun.fi/HR.3211/392400101-U,2026-08-18,2026,62.76515,22.85514,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Pohjanmaa (EP),ETRS-TM35FIN-10km-N6960000-E280000
+http://tun.fi/HR.3211/393015574-U,2026-08-20,2026,63.08823,26.04663,31.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6990000-E450000
+http://tun.fi/HR.3211/393133815-U,2026-08-20,2026,65.02078,25.48278,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E420000
+http://tun.fi/HR.3211/393585444-U,2026-08-22,2026,64.77186,25.4007,14.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7180000-E420000
+http://tun.fi/HR.3211/393836053-U,2026-08-23,2026,60.15888,24.91298,16.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/394068060-U,2026-08-24,2026,62.80823,29.531,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N6960000-E620000
+http://tun.fi/HR.3211/394084266-U,2026-08-24,2026,63.35965,27.39582,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E510000
+http://tun.fi/HR.3211/394098815-U,2026-08-24,2026,61.17579,26.86962,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6780000-E490000
+http://tun.fi/JX.2502627#30,2026-08-24 [9:50-10:42],2026,61.495947,25.684131,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6810000-E420000
+http://tun.fi/HR.3211/395832286-U,2026-08-26,2026,63.33786,27.34598,22.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E510000
+http://tun.fi/HR.3211/395832975-U,2026-08-26,2026,63.33783,27.34354,27.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E510000
+http://tun.fi/HR.3211/394921366-U,2026-08-27,2026,63.09018,25.83131,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Häme (PH),ETRS-TM35FIN-10km-N6990000-E440000
+http://tun.fi/HR.3211/394922159-U,2026-08-27,2026,60.87787,26.74001,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6740000-E480000
+http://tun.fi/HR.3211/394957209-U,2026-08-27,2026,63.77461,28.58859,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7070000-E570000
+http://tun.fi/HR.3211/394991477-U,2026-08-27,2026,63.46801,29.18777,38.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Pohjois-Karjala (PK),ETRS-TM35FIN-10km-N7030000-E600000
+http://tun.fi/HR.3211/395440913-U,2026-08-29,2026,61.65121,26.0719,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6830000-E450000
+http://tun.fi/HR.3211/395477795-U,2026-08-29,2026,61.54581,23.8058,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/395502117-U,2026-08-29,2026,61.49566,23.82796,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6820000-E330000
+http://tun.fi/HR.3211/396369491-U,2026-09-01,2026,60.89463,26.78471,14.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6750000-E480000
+http://tun.fi/HR.3211/396379089-U,2026-09-01,2026,63.34904,27.39251,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N7020000-E510000
+http://tun.fi/HR.3211/396393149-U,2026-09-01,2026,60.89446,26.78485,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6750000-E480000
+http://tun.fi/JX.2509634#19,2026-09-01,2026,61.00122,25.648966,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E420000
+http://tun.fi/HR.3211/396614716-U,2026-09-02,2026,65.06151,25.52971,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7210000-E430000
+http://tun.fi/HR.3211/397194445-U,2026-09-04,2026,60.87781,26.75267,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Etelä-Savo (ES),ETRS-TM35FIN-10km-N6740000-E480000
+http://tun.fi/HR.3211/397403003-U,2026-09-05,2026,64.90217,25.56941,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Oulun Pohjanmaa (OP),ETRS-TM35FIN-10km-N7190000-E430000
+http://tun.fi/HR.3211/398682405-U,2026-09-05,2026,60.31381,24.659,13.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E370000
+http://tun.fi/JX.2510911#11,2026-09-05,2026,61.231112,25.63621,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6780000-E420000
+http://tun.fi/HR.3211/397705459-U,2026-09-06,2026,60.18239,24.72322,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/398156776-U,2026-09-07,2026,60.38763,24.75059,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6690000-E370000
+http://tun.fi/JX.2512512#5,2026-09-07,2026,60.12979,23.49964,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6670000-E300000
+http://tun.fi/JX.2514272#5,2026-09-10,2026,62.388045,28.789016,1.0,NEUTRAL,Photographed,The Atlas of Finnish Fungi,Pohjois-Savo (PS),ETRS-TM35FIN-10km-N6910000-E590000
+http://tun.fi/HR.3211/399226783-U,2026-09-11,2026,60.41145,22.38594,17.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Varsinais-Suomi (V),ETRS-TM35FIN-10km-N6700000-E240000
+http://tun.fi/HR.3211/399253887-U,2026-09-11,2026,60.20337,25.0675,20.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E390000
+http://tun.fi/HR.3211/399475076-U,2026-09-12,2026,60.20636,24.86436,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/399504443-U,2026-09-12,2026,60.297,25.89122,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E430000
+http://tun.fi/HR.3211/399504463-U,2026-09-12,2026,60.29702,25.89125,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E430000
+http://tun.fi/HR.3211/399522873-U,2026-09-12,2026,60.21812,24.95053,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/400659938-U,2026-09-12,2026,60.1865,24.79979,16.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/JX.2514424#84,2026-09-12 [9:42-11:15],2026,60.247028,25.168106,1.0,NEUTRAL,Observation,The Atlas of Finnish Fungi,Uusimaa (U),ETRS-TM35FIN-10km-N6680000-E390000
+http://tun.fi/HR.3211/399826595-U,2026-09-13,2026,60.1799,24.99716,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/399849270-U,2026-09-13,2026,60.16076,24.76926,28.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E370000
+http://tun.fi/HR.3211/399859028-U,2026-09-13,2026,60.18035,24.99678,10.0,COMMUNITY_VERIFIED,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6670000-E380000
+http://tun.fi/HR.3211/400207803-U,2026-09-14,2026,61.01091,25.71536,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Etelä-Häme (EH),ETRS-TM35FIN-10km-N6760000-E430000
+http://tun.fi/HR.3211/400470444-U,2026-09-14,2026,59.82677,22.93563,10.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6630000-E270000
+http://tun.fi/HR.3211/400470591-U,2026-09-14,2026,59.82834,22.94341,13.0,NEUTRAL,Photographed,iNaturalist Suomi Finland,Uusimaa (U),ETRS-TM35FIN-10km-N6630000-E270000
