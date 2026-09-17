@@ -13,7 +13,7 @@ VARIABLES = {
     "Tmin": "tmin",
     "Tmax": "tmax",
 }
-YEARS = range(2010, 2027)
+YEARS = range(2009, 2027)
 DESTINATION = Path(__file__).resolve().parents[1] / "data" / "fmi_gridded_obs_daily_1km"
 
 
