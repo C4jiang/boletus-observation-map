@@ -41,3 +41,9 @@ Library/
 Temp/
 Logs/
 UserSettings/
+
+# Downloaded FMI climate source data (large, reproducible)
+data/fmi_gridded_obs_daily_1km/
+
+# Full FinBIF occurrence export (849 MB source; reproducible from HBF.127586)
+data/occurrences.tsv
