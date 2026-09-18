@@ -47,3 +47,6 @@ data/fmi_gridded_obs_daily_1km/
 
 # Full FinBIF occurrence export (849 MB source; reproducible from HBF.127586)
 data/occurrences.tsv
+
+# Natural Earth global boundary source; downloaded and cached by the map script
+data/ne_10m_admin_0_countries.geojson

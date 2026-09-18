@@ -41,6 +41,7 @@ OUTPUT_COLUMNS = [
     "coordinate_accuracy_m",
     *FEATURE_COLUMNS,
     "event_year",
+    "event_month",
     "day_of_year",
 ]
 
@@ -128,7 +129,8 @@ def write_output(rows: list[dict[str, str]], event_dates: list[date], daily_valu
             )
             complete_rows += all(features[name] is not None for name in FEATURE_COLUMNS)
             output_row = {column: row[column] for column in OUTPUT_COLUMNS[:7]}
-            output_row["event_year"] = event_dates[index].year
+            output_row["event_year"] = str(event_dates[index].year)
+            output_row["event_month"] = str(event_dates[index].month)
             output_row["day_of_year"] = event_dates[index].timetuple().tm_yday
             output_row.update({name: "" if value is None else round(value, 4) for name, value in features.items()})
             writer.writerow(output_row)

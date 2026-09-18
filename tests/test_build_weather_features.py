@@ -1,7 +1,9 @@
 from datetime import date
+import csv
 
 import numpy as np
 
+import scripts.build_weather_features as weather_features
 from scripts.build_weather_features import (
     event_date_from_interval,
     nearest_grid_indices,
@@ -14,8 +16,8 @@ from scripts.build_weather_features import (
 )
 
 
-def test_output_ends_with_non_missing_calendar_columns():
-    assert OUTPUT_COLUMNS[-2:] == ["event_year", "day_of_year"]
+def test_output_includes_month_and_non_missing_calendar_columns():
+    assert OUTPUT_COLUMNS[-3:] == ["event_year", "event_month", "day_of_year"]
 
 
 def test_weather_day_index_requires_a_present_time_and_data_layer():
@@ -68,3 +70,24 @@ def test_summarize_features_uses_inclusive_trailing_windows():
     assert features["rain_mean_14d"] == 22.5
     assert features["rain_mean_30d"] == 14.5
     assert features["rainy_days_14d"] == 14
+
+
+def test_write_output_populates_event_month(tmp_path, monkeypatch):
+    output = tmp_path / "weather.tsv"
+    monkeypatch.setattr(weather_features, "OUTPUT", output)
+    daily_values = {name: np.arange(1.0, 31.0).reshape(1, 30) for name in VARIABLES}
+    row = {
+        "sample_group": "boletus_edulis",
+        "scientific_name": "Boletus edulis",
+        "latitude_wgs84": "60.0",
+        "longitude_wgs84": "24.0",
+        "etrs_tm35fin_easting_m": "500000",
+        "etrs_tm35fin_northing_m": "6650000",
+        "coordinate_accuracy_m": "100",
+    }
+
+    weather_features.write_output([row], [date(2025, 8, 30)], daily_values)
+
+    with output.open(newline="", encoding="utf-8") as source:
+        written = next(csv.DictReader(source, delimiter="\t"))
+    assert written["event_month"] == "8"
