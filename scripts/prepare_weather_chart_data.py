@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Prepare complete-weather records and draw monthly grouped observation counts."""
 
-import csv
 import os
 import tempfile
-from collections import Counter
 from pathlib import Path
+
+import numpy as np
+import pandas as pd
 
 INPUT = Path(__file__).parent.parent / "data" / "boletus_edulis_vs_other_agaricoid_weather.tsv"
 CHART = Path(__file__).parent.parent / "data" / "boletus_edulis_vs_other_agaricoid_weather_by_month_grouped.png"
@@ -15,37 +16,48 @@ PARTITION_COLUMN = "longitude_partition"
 MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
-def prepare_rows(rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], list[str]]:
-    """Keep rows complete across supplied weather features and add a binary target."""
-    if not rows:
-        return [], []
+def prepare_weather_dataframe(frame: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
+    """Keep complete weather rows and add a numeric Boletus indicator."""
     weather_columns = [
         column
-        for column in rows[0]
+        for column in frame.columns
         if column.startswith("temp_") or column.startswith("rain_") or column.startswith("rainy_")
     ]
-    kept = [row.copy() for row in rows if all((row.get(column) or "").strip() for column in weather_columns)]
-    for row in kept:
-        row[INDICATOR_COLUMN] = "1" if row["scientific_name"].strip() == TARGET_SPECIES else "0"
-    return kept, weather_columns
+    prepared = frame.replace(r"^\s*$", pd.NA, regex=True).dropna(subset=weather_columns).copy()
+    prepared[INDICATOR_COLUMN] = (prepared["scientific_name"].str.strip() == TARGET_SPECIES).astype("int8")
+    return prepared, weather_columns
 
 
-def partition_rows_by_longitude(rows: list[dict[str, str]], group_count: int = 5) -> list[dict[str, str]]:
-    """Label longitude-ordered records in near-equal contiguous partitions."""
+def prepare_rows(rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], list[str]]:
+    """Compatibility wrapper for callers that still use records rather than frames."""
+    prepared, weather_columns = prepare_weather_dataframe(pd.DataFrame(rows))
+    records = prepared.copy()
+    records[INDICATOR_COLUMN] = records[INDICATOR_COLUMN].astype(str)
+    return records.to_dict(orient="records"), weather_columns
+
+
+def partition_weather_dataframe(frame: pd.DataFrame, group_count: int = 5) -> pd.DataFrame:
+    """Label longitude-ordered rows in near-equal contiguous partitions."""
     if group_count < 1:
         raise ValueError("group_count must be positive")
-    ordered = sorted((row.copy() for row in rows), key=lambda row: float(row["longitude_wgs84"]))
+    ordered = frame.copy()
+    ordered["_longitude"] = pd.to_numeric(ordered["longitude_wgs84"], errors="raise")
+    ordered = ordered.sort_values("_longitude", kind="stable").drop(columns="_longitude").reset_index(drop=True)
     base_size, remainder = divmod(len(ordered), group_count)
-    start = 0
-    for group in range(1, group_count + 1):
-        size = base_size + (group <= remainder)
-        for row in ordered[start : start + size]:
-            row[PARTITION_COLUMN] = str(group)
-        start += size
+    sizes = [base_size + (group <= remainder) for group in range(1, group_count + 1)]
+    ordered[PARTITION_COLUMN] = np.repeat(np.arange(1, group_count + 1, dtype="int8"), sizes)
     return ordered
 
 
-def write_rows(rows: list[dict[str, str]], fieldnames: list[str]) -> None:
+def partition_rows_by_longitude(rows: list[dict[str, str]], group_count: int = 5) -> list[dict[str, str]]:
+    """Compatibility wrapper for callers that still use records rather than frames."""
+    partitioned = partition_weather_dataframe(pd.DataFrame(rows), group_count)
+    records = partitioned.copy()
+    records[PARTITION_COLUMN] = records[PARTITION_COLUMN].astype(str)
+    return records.to_dict(orient="records")
+
+
+def write_dataframe(frame: pd.DataFrame, fieldnames: list[str]) -> None:
     """Atomically replace the derived TSV, preserving a stable column order."""
     output_fields = [
         fieldname
@@ -55,24 +67,21 @@ def write_rows(rows: list[dict[str, str]], fieldnames: list[str]) -> None:
     fd, temporary_name = tempfile.mkstemp(prefix=f"{INPUT.name}.", suffix=".tmp", dir=INPUT.parent, text=True)
     os.close(fd)
     try:
-        with open(temporary_name, "w", encoding="utf-8", newline="") as output:
-            writer = csv.DictWriter(output, fieldnames=output_fields, delimiter="\t", lineterminator="\n")
-            writer.writeheader()
-            writer.writerows(rows)
+        frame.loc[:, output_fields].to_csv(temporary_name, sep="\t", index=False, lineterminator="\n")
         os.replace(temporary_name, INPUT)
     except Exception:
         Path(temporary_name).unlink(missing_ok=True)
         raise
 
 
-def draw_grouped_month_chart(rows: list[dict[str, str]]) -> None:
+def draw_grouped_month_chart(frame: pd.DataFrame) -> None:
     """Draw monthly observation counts with one bar per target group."""
     import matplotlib.pyplot as plt
 
-    counts = Counter((int(row["event_month"]), row[INDICATOR_COLUMN]) for row in rows)
+    counts = frame.groupby(["event_month", INDICATOR_COLUMN]).size().unstack(fill_value=0).reindex(range(1, 13), fill_value=0)
+    other = counts.get(0, pd.Series(0, index=counts.index)).tolist()
+    edulis = counts.get(1, pd.Series(0, index=counts.index)).tolist()
     months = list(range(1, 13))
-    other = [counts[(month, "0")] for month in months]
-    edulis = [counts[(month, "1")] for month in months]
 
     plt.style.use("seaborn-v0_8-whitegrid")
     figure, axis = plt.subplots(figsize=(13, 7), dpi=180)
@@ -91,20 +100,18 @@ def draw_grouped_month_chart(rows: list[dict[str, str]]) -> None:
 
 
 def main() -> None:
-    with INPUT.open(encoding="utf-8", newline="") as source:
-        reader = csv.DictReader(source, delimiter="\t")
-        fieldnames = list(reader.fieldnames or [])
-        rows = list(reader)
+    frame = pd.read_csv(INPUT, sep="\t")
+    fieldnames = frame.columns.tolist()
     if "event_month" not in fieldnames:
         raise ValueError("event_month is required; run build_weather_features.py first")
 
-    prepared, weather_columns = prepare_rows(rows)
-    partitioned = partition_rows_by_longitude(prepared)
-    write_rows(partitioned, fieldnames)
+    prepared, weather_columns = prepare_weather_dataframe(frame)
+    partitioned = partition_weather_dataframe(prepared)
+    write_dataframe(partitioned, fieldnames)
     draw_grouped_month_chart(partitioned)
-    edulis = sum(row[INDICATOR_COLUMN] == "1" for row in partitioned)
-    print(f"Input rows: {len(rows)}")
-    print(f"Removed rows with incomplete weather: {len(rows) - len(prepared)}")
+    edulis = int(partitioned[INDICATOR_COLUMN].sum())
+    print(f"Input rows: {len(frame)}")
+    print(f"Removed rows with incomplete weather: {len(frame) - len(prepared)}")
     print(f"Output rows: {len(prepared)}")
     print(f"Boletus edulis: {edulis}; other agaricoid: {len(prepared) - edulis}")
     print(f"Weather columns: {', '.join(weather_columns)}")

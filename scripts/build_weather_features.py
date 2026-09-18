@@ -72,6 +72,11 @@ def event_date_from_interval(value: str) -> date:
     return datetime.fromisoformat(value.split("/")[-1]).date()
 
 
+def trailing_weather_dates(event_day: date, window_days: int = WINDOW_DAYS) -> list[date]:
+    """Return complete daily weather dates ending on the day before observation."""
+    return [event_day - timedelta(days=window_days - offset) for offset in range(window_days)]
+
+
 def nearest_grid_indices(grid_values: np.ndarray, coordinates: np.ndarray) -> np.ndarray:
     """Return each coordinate's nearest 1 km grid-coordinate index."""
     return np.abs(grid_values[:, None] - coordinates[None, :]).argmin(axis=0)
@@ -158,8 +163,7 @@ def main() -> None:
     daily_values = {name: np.full((len(rows), WINDOW_DAYS), np.nan) for name in VARIABLES}
     scheduled_dates: dict[date, list[tuple[int, int]]] = {}
     for record_index, event_day in enumerate(event_dates):
-        for offset in range(WINDOW_DAYS):
-            day = event_day - timedelta(days=WINDOW_DAYS - 1 - offset)
+        for offset, day in enumerate(trailing_weather_dates(event_day)):
             scheduled_dates.setdefault(day, []).append((record_index, offset))
 
     for year in sorted({day.year for day in scheduled_dates}):

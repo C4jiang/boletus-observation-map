@@ -8,6 +8,7 @@ from scripts.build_weather_features import (
     event_date_from_interval,
     nearest_grid_indices,
     summarize_features,
+    trailing_weather_dates,
     fill_value_from_attribute,
     weather_dataset_name,
     weather_day_index,
@@ -47,12 +48,21 @@ def test_event_date_uses_the_end_of_a_datetime_interval():
     assert event_date_from_interval("2025-08-30T14:49/2025-08-30T23:19") == date(2025, 8, 30)
 
 
+def test_trailing_weather_dates_exclude_the_observation_day():
+    dates = trailing_weather_dates(date(2025, 8, 30))
+
+    assert len(dates) == 30
+    assert dates[0] == date(2025, 7, 31)
+    assert dates[-1] == date(2025, 8, 29)
+    assert date(2025, 8, 30) not in dates
+
+
 def test_nearest_grid_indices_handles_descending_northing_coordinates():
     indices = nearest_grid_indices(np.array([7000.0, 6000.0, 5000.0]), np.array([6100.0, 4900.0]))
     assert indices.tolist() == [1, 2]
 
 
-def test_summarize_features_uses_inclusive_trailing_windows():
+def test_summarize_features_uses_windows_ending_on_the_previous_day():
     temperatures = np.arange(1.0, 31.0)
     features = summarize_features(
         tmean=temperatures,

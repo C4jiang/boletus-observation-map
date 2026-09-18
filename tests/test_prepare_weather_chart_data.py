@@ -1,4 +1,10 @@
-from scripts.prepare_weather_chart_data import partition_rows_by_longitude, prepare_rows
+import pandas as pd
+
+from scripts.prepare_weather_chart_data import (
+    partition_rows_by_longitude,
+    prepare_rows,
+    prepare_weather_dataframe,
+)
 
 
 def test_prepare_rows_discards_missing_weather_and_adds_boletus_indicator():
@@ -28,6 +34,22 @@ def test_prepare_rows_discards_missing_weather_and_adds_boletus_indicator():
     assert weather_columns == ["temp_mean_7d", "rain_mean_7d"]
     assert [row["Has Boletus edulis"] for row in kept] == ["1", "0"]
     assert [row["scientific_name"] for row in kept] == ["Boletus edulis", "Russula claroflava"]
+
+
+def test_prepare_weather_dataframe_returns_a_dataframe_with_a_numeric_indicator():
+    frame = pd.DataFrame(
+        {
+            "scientific_name": ["Boletus edulis", "Amanita muscaria"],
+            "temp_mean_7d": [14.2, 12.0],
+            "rain_mean_7d": [2.1, 1.3],
+        }
+    )
+
+    prepared, weather_columns = prepare_weather_dataframe(frame)
+
+    assert isinstance(prepared, pd.DataFrame)
+    assert weather_columns == ["temp_mean_7d", "rain_mean_7d"]
+    assert prepared["Has Boletus edulis"].tolist() == [1, 0]
 
 
 def test_partition_rows_by_longitude_balances_five_groups():

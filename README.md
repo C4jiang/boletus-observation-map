@@ -41,6 +41,10 @@ Then open `http://127.0.0.1:4173`.
 
 The script assigns records to 25 km × 25 km two-dimensional `EPSG:3067` (ETRS-TM35FIN) blocks. Within every block containing target observations, it uses a fixed-seed reservoir sample of other-agaricoid records to match that block's target-record count. This preserves the target's broad spatial distribution without treating biogeographical provinces as negative-sampling strata.
 
+## Weather features
+
+All 7-, 14-, and 30-day weather features use complete calendar days ending on the day **before** the observation date. For an observation on day `D`, the windows are `D−7…D−1`, `D−14…D−1`, and `D−30…D−1`; the observation day is excluded to avoid temporal leakage.
+
 ## Interpretation
 
 This map shows reported observations. It does not establish biological absence, mushroom abundance or food safety.

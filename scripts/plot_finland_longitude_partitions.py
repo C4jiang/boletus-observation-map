@@ -2,12 +2,12 @@
 """Render Finland observations and longitude-balanced partition boundaries."""
 
 import argparse
-import csv
 import json
 import math
-from collections import defaultdict
 from pathlib import Path
 from urllib.request import urlretrieve
+
+import pandas as pd
 
 PROJECT_ROOT = Path(__file__).parent.parent
 INPUT = PROJECT_ROOT / "data" / "boletus_edulis_vs_other_agaricoid_weather.tsv"
@@ -19,15 +19,21 @@ PARTITION_COLUMN = "longitude_partition"
 LEGEND_LOCATION = "upper left"
 
 
-def longitude_cut_lines(rows: list[dict[str, str]]) -> list[float]:
+def as_dataframe(rows: pd.DataFrame | list[dict[str, str]]) -> pd.DataFrame:
+    """Normalize callers using either a dataframe or record dictionaries."""
+    return rows.copy() if isinstance(rows, pd.DataFrame) else pd.DataFrame(rows)
+
+
+def longitude_cut_lines(rows: pd.DataFrame | list[dict[str, str]]) -> list[float]:
     """Return midpoint longitudes separating consecutive partition labels."""
-    by_partition: dict[int, list[float]] = defaultdict(list)
-    for row in rows:
-        by_partition[int(row[PARTITION_COLUMN])].append(float(row["longitude_wgs84"]))
-    partitions = sorted(by_partition)
+    frame = as_dataframe(rows)
+    ranges = frame.assign(
+        _longitude=pd.to_numeric(frame["longitude_wgs84"], errors="raise"),
+        _partition=pd.to_numeric(frame[PARTITION_COLUMN], errors="raise"),
+    ).groupby("_partition", sort=True)["_longitude"].agg(["min", "max"])
     return [
-        (max(by_partition[left]) + min(by_partition[right])) / 2
-        for left, right in zip(partitions, partitions[1:])
+        (ranges.loc[left, "max"] + ranges.loc[right, "min"]) / 2
+        for left, right in zip(ranges.index, ranges.index[1:])
     ]
 
 
@@ -59,7 +65,7 @@ def polygons(geometry: dict) -> list[list[list[float]]]:
     raise ValueError(f"Unsupported geometry type: {geometry['type']}")
 
 
-def plot(rows: list[dict[str, str]], geometry: dict) -> None:
+def plot(frame: pd.DataFrame, geometry: dict) -> None:
     """Save the national outline, all observations, and partition cut lines."""
     import matplotlib.pyplot as plt
     from matplotlib.lines import Line2D
@@ -70,11 +76,11 @@ def plot(rows: list[dict[str, str]], geometry: dict) -> None:
         axis.fill(longitudes, latitudes, color="#EDF2F5", zorder=0)
         axis.plot(longitudes, latitudes, color="#4D5965", linewidth=0.55, zorder=1)
 
-    other = [row for row in rows if row[TARGET_COLUMN] == "0"]
-    edulis = [row for row in rows if row[TARGET_COLUMN] == "1"]
+    other = frame.loc[frame[TARGET_COLUMN] == 0]
+    edulis = frame.loc[frame[TARGET_COLUMN] == 1]
     axis.scatter(
-        [float(row["longitude_wgs84"]) for row in other],
-        [float(row["latitude_wgs84"]) for row in other],
+        other["longitude_wgs84"],
+        other["latitude_wgs84"],
         s=7,
         color="#4C78A8",
         alpha=0.62,
@@ -83,8 +89,8 @@ def plot(rows: list[dict[str, str]], geometry: dict) -> None:
         label="Other agaricoid fungi (0)",
     )
     axis.scatter(
-        [float(row["longitude_wgs84"]) for row in edulis],
-        [float(row["latitude_wgs84"]) for row in edulis],
+        edulis["longitude_wgs84"],
+        edulis["latitude_wgs84"],
         s=8,
         color="#E45756",
         alpha=0.72,
@@ -92,7 +98,7 @@ def plot(rows: list[dict[str, str]], geometry: dict) -> None:
         zorder=4,
         label="Boletus edulis (1)",
     )
-    for cut in longitude_cut_lines(rows):
+    for cut in longitude_cut_lines(frame):
         axis.axvline(cut, color="#2F3E46", linestyle="--", linewidth=1.05, alpha=0.9, zorder=2)
 
     axis.set_xlim(19.0, 32.0)
@@ -115,18 +121,16 @@ def main() -> None:
     parser.add_argument("--refresh-boundary", action="store_true", help="redownload the cached Natural Earth boundary")
     arguments = parser.parse_args()
 
-    with INPUT.open(encoding="utf-8", newline="") as source:
-        reader = csv.DictReader(source, delimiter="\t")
-        rows = list(reader)
+    frame = pd.read_csv(INPUT, sep="\t")
     required = {"latitude_wgs84", "longitude_wgs84", TARGET_COLUMN, PARTITION_COLUMN}
-    missing = required - set(reader.fieldnames or [])
+    missing = required - set(frame.columns)
     if missing:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     geometry = finland_geometry(fetch_boundary(arguments.refresh_boundary))
-    plot(rows, geometry)
-    print(f"Plotted {len(rows)} observations to {OUTPUT}")
-    print("Longitude cut lines: " + ", ".join(f"{cut:.6f}" for cut in longitude_cut_lines(rows)))
+    plot(frame, geometry)
+    print(f"Plotted {len(frame)} observations to {OUTPUT}")
+    print("Longitude cut lines: " + ", ".join(f"{cut:.6f}" for cut in longitude_cut_lines(frame)))
 
 
 if __name__ == "__main__":
