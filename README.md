@@ -35,6 +35,12 @@ python3 -m http.server 4173
 
 Then open `http://127.0.0.1:4173`.
 
+## Comparative dataset
+
+`scripts/build_balanced_boletus_dataset.py` produces a reproducible comparison dataset of *Boletus edulis* records versus sampled records of other agaricoid fungi. It is **not** an occurrence–absence dataset: an `other_agaricoid` row records another fungus, not a verified absence of *B. edulis*.
+
+The script assigns records to 25 km × 25 km two-dimensional `EPSG:3067` (ETRS-TM35FIN) blocks. Within every block containing target observations, it uses a fixed-seed reservoir sample of other-agaricoid records to match that block's target-record count. This preserves the target's broad spatial distribution without treating biogeographical provinces as negative-sampling strata.
+
 ## Interpretation
 
 This map shows reported observations. It does not establish biological absence, mushroom abundance or food safety.
